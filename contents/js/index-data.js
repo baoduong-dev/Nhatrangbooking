@@ -62,15 +62,32 @@ $(function() {
   //   rest.isotope('layout');
   // });
 
-  $('.tabs').on('click', 'button', function() {
-    $('.tabs').find('.active').removeClass('active');
-    $(this).addClass('active');
+  $('.tabs button').each(function() {
+    if ($(this).hasClass('active')) {
+      var link = $(this).data('href');
+      $('#btn-view-more-rest').attr('href', link);
+    }
+
+    $(this).on('click', function() {
+      $('.tabs').find('.active').removeClass('active');
+      $(this).addClass('active');
+
+      var link = $(this).data('href');
+      var filterValue = $(this).attr('data-filter');
+      $('#btn-view-more-rest').attr('href', link);
+      rest.isotope({ filter: filterValue });
+    })
+  })
+
+  // $('.tabs').on('click', 'button', function() {
+  //   $('.tabs').find('.active').removeClass('active');
+  //   $(this).addClass('active');
     
-    var link = $(this).data('href');
-    var filterValue = $(this).attr('data-filter');
-    $('#btn-view-more-rest').attr('href', link);
-    rest.isotope({ filter: filterValue });
-  });
+  //   var link = $(this).data('href');
+  //   var filterValue = $(this).attr('data-filter');
+  //   $('#btn-view-more-rest').attr('href', link);
+  //   rest.isotope({ filter: filterValue });
+  // });
 
   $('.star').barrating({
     theme: 'fontawesome-stars',
