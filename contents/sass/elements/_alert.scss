@@ -1,0 +1,58 @@
+// style all alert
+
+.alert {
+  padding: 25px 30px;
+  margin-bottom: 30px;
+  
+  > i {
+    float: left;
+    width: 40px;
+    font-size: 22px;
+  }
+
+  &.alert {
+    &-warning {
+      p {
+        color: $gray-3;
+      }
+    }
+  }
+
+  .alert-content {
+    overflow: hidden;
+
+    * {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    p {
+      font-size: 15px;
+      margin-bottom: 10px;
+
+      * {
+        font-size: 15px;
+      }
+
+      span {
+        color: $gray-3;
+      }
+    }
+
+    br {
+      margin: 10px;
+      margin-bottom: 10px;
+    }
+
+    a {
+      font-size: 15px;
+      display: inline-block;
+    }
+  }
+}
+
+
+@include responsive(xs) {
+  .alert {
+    padding: 20px;   
+  }
+}

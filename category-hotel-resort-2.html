@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="contents/css/bootstrap.min.css">
+  <link rel="stylesheet" href="contents/css/fontawesome.min.css">
+  <link rel="stylesheet" href="contents/css/style_header_footer.css">
+  <!-- ################# -->
+  <link rel="stylesheet" href="contents/css/select2.min.css">
+  <link rel="stylesheet" href="contents/css/style_category_service.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Roboto+Slab:400,700&amp;subset=vietnamese" rel="stylesheet">
+
+  <title>Dịch vụ NTBK</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="#">
+        <img src="./images/theme1/logo.png" alt="Trang chủ NhaTrangBooking">
+      </a>
+    </div>
+    <div class="search-bar">
+      <form action="">
+        <input type="text" class="form-control" placeholder="Tìm kiếm mọi thứ bạn cần...">
+        <i class="fas fa-search"></i>
+      </form>
+    </div>
+    <nav class="nav-menu">
+      <ul class="main-menu">
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Tour</a>
+          <ul class="sub-menu">
+            <li class="sub-menu-item">
+              <a href="#">Tour 1 ngày</a>
+            </li>
+            <li class="sub-menu-item">
+              <a href="#">Tour dài ngày</a>
+            </li>
+            <li class="sub-menu-item">
+              <a href="#">Tour Nha Trang - Đà Lạt</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Dịch vụ du lịch</a>
+        </li>
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Dịch vụ Vé</a>
+        </li>
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Lưu trú</a>
+        </li>
+        <li class="menu-item menu-more">
+          <a href="javascript:;">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="main-menu-2">
+        <li class="menu-item-2">
+          <a href="#">Địa điểm du lịch</a>
+        </li>
+        <li class="menu-item-2">
+          <a href="#">Ăn uống</a>
+        </li>
+        <li class="menu-item-2">
+          <a href="#">Sức khỏe</a>
+        </li>
+        <li class="menu-item-2 menu-parent">
+          <a href="javascript:;">Blog</a>
+          <ul class="sub-menu">
+            <li class="sub-menu-item">
+              <a href="#">Blog du lịch</a>
+            </li>
+            <li class="sub-menu-item">
+              <a href="#">Blog kiến thức</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- reponsive -->
+    <button class="btn btn-toggle-menu">
+      <span class="top-bar"></span>
+      <span class="middle-bar"></span>
+      <span class="bottom-bar"></span>
+      <span class="text">Menu</span>
+    </button>
+
+    <button class="btn btn-toggle-search">
+      <i class="fas fa-search"></i>
+    </button>
+
+    <nav class="nav-menu-responsive">
+      <button class="btn btn-close-menu"><i class="fas fa-long-arrow-alt-left"></i>Thoát</button>
+      <ul class="main-menu">
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Tour</a>
+          <ul class="sub-menu">
+            <li class="sub-menu-item">
+              <a href="#">Tour 1 ngày</a>
+            </li>
+            <li class="sub-menu-item">
+              <a href="#">Tour dài ngày</a>
+            </li>
+            <li class="sub-menu-item">
+              <a href="#">Tour Nha Trang - Đà Lạt</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Dịch vụ du lịch</a>
+        </li>
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Dịch vụ Vé</a>
+        </li>
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Lưu trú</a>
+        </li>
+        <li class="menu-item">
+          <a href="#">Địa điểm du lịch</a>
+        </li>
+        <li class="menu-item">
+          <a href="#">Ăn uống</a>
+        </li>
+        <li class="menu-item">
+          <a href="#">Sức khỏe</a>
+        </li>
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Blog</a>
+          <ul class="sub-menu">
+            <li class="sub-menu-item">
+              <a href="#">Blog du lịch</a>
+            </li>
+            <li class="sub-menu-item">
+              <a href="#">Blog kiến thức</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="category-header">
+    <h1 class="category-title">Dịch vụ du lịch</h1>
+  </div>
+  
+
+  <section class="main">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Dịch vụ du lịch</li>
+        </ol>
+      </nav>
+    </div>
+
+    <div class="category-service">
+      <div class="container">
+        <div class="filters">
+          <button class="btn btn-link btn-filters d-xs-block d-md-none">
+            <i class="fas fa-sliders-h"></i>
+            Tìm theo:
+          </button>
+
+          <span class="filter-title d-none d-md-block">
+            <i class="fas fa-sliders-h"></i>
+            Tìm theo:
+          </span>
+
+          <div class="filter-group">
+            <span class="filter-label">Nằm trên Đường</span>
+            <select class="select2 form-control" id="filter-road">
+              <option disabled></option>
+              <option value="tp">Trần phú</option>
+              <option value="pvd" selected="selected">Phạm Văn Đồng</option>
+              <option value="ntmk">Nguyễn Thị Minh Khai</option>
+              <option value="ntt">Nguyễn Thiện Thuật</option>
+              <option value="tht">Tô Hiến Thành</option>
+              <option value="ys">Yersin</option>
+              <option value="pct">Phan Chu Trinh</option>
+            </select>
+            <span class="text">Vd: Trần Phú, Nguyễn Thiện Thuận,...</span>
+          </div>
+
+          <div class="filter-group">
+            <span class="filter-label">Tiêu chuẩn Sao</span>
+            <div class="filter">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="star_1" value="1">
+                <label class="custom-control-label" for="star_1">
+                  <i class="fas fa-star"></i>
+                  (1 sao)
+                </label>
+              </div>
+            </div>
+
+            <div class="filter">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="star_2" value="2" checked>
+                <label class="custom-control-label" for="star_2">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  (2 sao)
+                </label>
+              </div>
+            </div>
+
+            <div class="filter">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="star_3" value="3">
+                <label class="custom-control-label" for="star_3">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  (3 sao)
+                </label>
+              </div>
+            </div>
+
+            <div class="filter">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="star_4" value="4">
+                <label class="custom-control-label" for="star_4">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  (4 sao)
+                </label>
+              </div>
+            </div>
+
+            <div class="filter">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="star_5" value="5">
+                <label class="custom-control-label" for="star_5">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  (5 sao)
+                </label>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+
+        <div class="filter-selected">
+          <span class="total-item">Có <strong>856</strong> Khách sạn</span>
+        </div>
+
+
+        <div class="row rest-list">
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 rest">
+            <div class="rest-item">
+              <figure class="thumb">
+                <a href="#" class="lazy-container">
+                  <img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://via.placeholder.com/400x270.jpg" alt="rest 1">
+                </a>
+                <div class="rest-star">
+                  <input type="hidden" class="rating star" value="4" data-readonly data-filled="fas fa-star star-filled" data-empty="far fa-star star-empty" >
+                </div>
+              </figure>
+              <div class="content">
+                <a href="#" class="rest-name">Khách sạn Galina</a>
+                <div class="price">
+                  <p class="old-price"><del>425.000đ</del></p>
+                  <p class="new-price">325.000đ <span>/đêm</span></p>
+                </div>
+                <p class="rating">
+                  <i class="fas fa-star"></i>
+                  4.5
+                  <span class="counter">(134 đánh giá)</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 rest">
+            <div class="rest-item">
+              <figure class="thumb">
+                <a href="#" class="lazy-container">
+                  <img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://via.placeholder.com/400x270.jpg" alt="rest 1">
+                </a>
+                <div class="rest-star">
+                  <input type="hidden" class="rating star" value="4" data-readonly data-filled="fas fa-star star-filled" data-empty="far fa-star star-empty" >
+                </div>
+              </figure>
+              <div class="content">
+                <a href="#" class="rest-name">Khách sạn Galina</a>
+                <div class="price">
+                  <p class="old-price"><del>425.000đ</del></p>
+                  <p class="new-price">325.000đ <span>/đêm</span></p>
+                </div>
+                <p class="rating">
+                  <i class="fas fa-star"></i>
+                  4.5
+                  <span class="counter">(134 đánh giá)</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 rest">
+            <div class="rest-item">
+              <figure class="thumb">
+                <a href="#" class="lazy-container">
+                  <img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://via.placeholder.com/400x270.jpg" alt="rest 1">
+                </a>
+                <div class="rest-star">
+                  <input type="hidden" class="rating star" value="4" data-readonly data-filled="fas fa-star star-filled" data-empty="far fa-star star-empty" >
+                </div>
+              </figure>
+              <div class="content">
+                <a href="#" class="rest-name">Khách sạn Galina</a>
+                <div class="price">
+                  <p class="old-price"><del>425.000đ</del></p>
+                  <p class="new-price">325.000đ <span>/đêm</span></p>
+                </div>
+                <p class="rating">
+                  <i class="fas fa-star"></i>
+                  4.5
+                  <span class="counter">(134 đánh giá)</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 rest">
+            <div class="rest-item">
+              <figure class="thumb">
+                <a href="#" class="lazy-container">
+                  <img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://via.placeholder.com/400x270.jpg" alt="rest 1">
+                </a>
+                <div class="rest-star">
+                  <input type="hidden" class="rating star" value="4" data-readonly data-filled="fas fa-star star-filled" data-empty="far fa-star star-empty" >
+                </div>
+              </figure>
+              <div class="content">
+                <a href="#" class="rest-name">Khách sạn Galina</a>
+                <div class="price">
+                  <p class="old-price"><del>425.000đ</del></p>
+                  <p class="new-price">325.000đ <span>/đêm</span></p>
+                </div>
+                <p class="rating">
+                  <i class="fas fa-star"></i>
+                  4.5
+                  <span class="counter">(134 đánh giá)</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 rest">
+            <div class="rest-item">
+              <figure class="thumb">
+                <a href="#" class="lazy-container">
+                  <img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://via.placeholder.com/400x270.jpg" alt="rest 1">
+                </a>
+                <div class="rest-star">
+                  <input type="hidden" class="rating star" value="4" data-readonly data-filled="fas fa-star star-filled" data-empty="far fa-star star-empty" >
+                </div>
+              </figure>
+              <div class="content">
+                <a href="#" class="rest-name">Khách sạn Galina</a>
+                <div class="price">
+                  <p class="old-price"><del>425.000đ</del></p>
+                  <p class="new-price">325.000đ <span>/đêm</span></p>
+                </div>
+                <p class="rating">
+                  <i class="fas fa-star"></i>
+                  4.5
+                  <span class="counter">(134 đánh giá)</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 rest">
+            <div class="rest-item">
+              <figure class="thumb">
+                <a href="#" class="lazy-container">
+                  <img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://via.placeholder.com/400x270.jpg" alt="rest 1">
+                </a>
+                <div class="rest-star">
+                  <input type="hidden" class="rating star" value="4" data-readonly data-filled="fas fa-star star-filled" data-empty="far fa-star star-empty" >
+                </div>
+              </figure>
+              <div class="content">
+                <a href="#" class="rest-name">Khách sạn Galina</a>
+                <div class="price">
+                  <p class="old-price"><del>425.000đ</del></p>
+                  <p class="new-price">325.000đ <span>/đêm</span></p>
+                </div>
+                <p class="rating">
+                  <i class="fas fa-star"></i>
+                  4.5
+                  <span class="counter">(134 đánh giá)</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pages">
+          <nav class="paginations">
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled">
+                <a href="#" tabindex="-1" aria-disabled="true">
+                  <i class="fas fa-angle-left"></i>
+                </a>
+              </li>
+              <li class="page-item active"><a href="#">1</a></li>
+              <li class="page-item"><a href="#">2</a></li>
+              <li class="page-item"><a href="#">3</a></li>
+              <li class="page-item">
+                ...
+              </li>
+              <li class="page-item"><a href="#">99</a></li>
+              <li class="page-item">
+                <a href="#">
+                  <i class="fas fa-angle-right"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+          <div class="logo-footer">
+            <a href="#">
+              <img src="images/theme1/logo-footer.png" alt="NhaTrangBooking">
+            </a>
+          </div>
+
+          <p class="copyright">© 2018 NhaTrangBooking</p>
+
+          <div class="socials">
+            <a href="#" class="social" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social" target="_blank">
+              <i class="fab fa-tumblr"></i>
+            </a>
+            <a href="#" class="social" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <h4 class="title-col">Chính sách</h4>
+          <ul class="quick-links">
+            <li>
+              <a href="#">Điều khoản sử dụng</a>
+            </li>
+            <li>
+              <a href="#">Quyền riêng tư</a>
+            </li>
+            <li>
+              <a href="#">Chính sách Cookie</a>
+            </li>
+            <li>
+              <a href="#">Chính sách và quy định</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-5">
+          <h4 class="title-col">Liên hệ chúng tôi</h4>
+
+          <ul class="contact-info">
+            <li>
+              <i class="fas fa-phone"></i>
+              0981.211.948 - 0961.277.753
+            </li>
+            <li>
+              <i class="fas fa-map-marker"></i>
+              25 Nguyễn Văn Bảy, P.Phước Long, Nha Trang
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i>
+              info@nhatrangbooking.com.vn
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="page-links">
+        <ul>
+          <li>
+            <a href="#">Về chúng tôi</a>
+          </li>
+          <li>
+            <a href="#">Hướng Dẫn Thanh Toán</a>
+          </li>
+          <li>
+            <a href="#">Blog du lịch</a>
+          </li>
+          <li>
+            <a href="#">Blog tin tức</a>
+          </li>
+          <li>
+            <a href="#">Liên hệ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- All Page JS -->
+  <script src="contents/js/jquery-3.3.1.min.js"></script>
+  <script src="contents/js/popper.min.js"></script>
+  <script src="contents/js/bootstrap.min.js"></script>
+  <script src="contents/js/lazyload.min.js"></script>
+  <script src="contents/js/all.js"></script>
+  <!-- ####### -->  
+  <script src="contents/js/bootstrap-rating.min.js"></script>
+  <script src="contents/js/select2.min.js"></script>
+  <script src="contents/js/category-service-data.js"></script>
+
+
+  <script>
+    $(document).ready(function() {
+      var filter = $('.filter .custom-control-input');
+      var filter_checked = $('.filter .custom-control-input:checked');
+      var filter_selected = $('.filter-selected');
+      var filter_road = $('#filter-road');
+
+      
+      function filterAdd(id, value, text, href) {
+        filter_selected.append(`<a class="filter-item" href="${href}" data-id="${id}">${value} ${text}<i class="fas fa-times"></i></a>`);
+      }
+
+      function filterRemove(id) {
+        $(`[data-id="${id}"]`).remove();
+      }
+
+
+      filter_checked.each(function() {
+        $(this).filter(function(value) {
+          id = $(this).attr('id');
+          value = $(this).val();
+          return filterAdd(id, value, 'sao', '#');
+        });
+
+        if ($('.filter-item').length) {
+          $('.filter-item').each(function() {
+            $(this).click(function() {
+              var id = $(this).data('id');
+              $('#'+id).prop('checked', false).trigger('change');
+            })
+          })
+        }
+      })
+
+      //filter tag
+      filter.each(function() {
+        //array filter value default
+        filter_array.push($(this).val());
+
+        $(this).on('change', function(event) {
+          var id = event.target.id,
+              value = event.target.value,
+              check = event.target.checked;
+              
+          //checkbox on change, CODE HERE!!!
+          alert('id: '+ id + ' - value: ' + value);
+        })
+      });
+
+      // check select2 value selected
+      var road_data = filter_road.select2('data');
+      if (road_data) {
+        var value = road_data[0].text;
+        var id = road_data[0].id;
+        return filterAdd(id, value, '', '#');
+      }
+
+      // check select2 on change
+      filter_road.on('select2:select', function (e) {
+        var value = e.target.value;
+        
+        //Select2 on click, CODE HERE!!
+        alert(value)
+      });
+
+    })
+  </script>
+</body>
+</html>

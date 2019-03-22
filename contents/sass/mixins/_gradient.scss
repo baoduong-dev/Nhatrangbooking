@@ -1,0 +1,9 @@
+
+//$direction => 'to bottom, to-right, to bottom right,...';
+//$color_1 => background color start
+//$color_2 => background color end
+//ex: gradient(to right, #000, #fff)
+@mixin gradient($direction, $color_1, $color_2) {
+  	background-image: -webkit-linear-gradient($direction, $color_1, $color_2);
+    background-image: linear-gradient($direction, $color_1, $color_2);
+}

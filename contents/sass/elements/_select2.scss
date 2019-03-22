@@ -1,0 +1,12 @@
+.select2,.select2-results {
+  * {
+    font-size: 14px;
+  }
+}
+
+.select2-container--default {
+  .select2-results__option--highlighted[aria-selected] {
+    background-color: $mau-xanh-ngoc - 35 !important;
+  }
+}
+

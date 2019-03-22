@@ -1,0 +1,326 @@
+@media (max-width: 575.8px) {
+  .slides {
+    height: 250px; }
+    .slides .owl-carousel,
+    .slides .owl-stage-outer,
+    .slides .owl-stage,
+    .slides .owl-item {
+      height: 100% !important; }
+    .slides .owl-dots {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      z-index: 2;
+      margin-top: 0;
+      margin-bottom: 10px; }
+      .slides .owl-dots .owl-dot span {
+        background: rgba(0, 0, 0, 0.5);
+        width: 12px;
+        height: 12px; }
+      .slides .owl-dots .owl-dot.active span {
+        background: white;
+        border: 4px solid rgba(0, 0, 0, 0.8); }
+    .slides .slide-item {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden; }
+      .slides .slide-item img {
+        height: 100%;
+        width: auto;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        transform: translateX(-50%);
+        z-index: 0; }
+    .slides .slide-text {
+      width: 100%;
+      padding-left: 15px;
+      padding-right: 15px; }
+      .slides .slide-text .mouse-icon {
+        width: 25px;
+        height: 25px; }
+      .slides .slide-text .slide-h1 {
+        font-size: 30px; }
+      .slides .slide-text .slide-p {
+        font-size: 14px; }
+
+  .top-tour .title, .tour-service .title, .top-rest .title, .new-blog .title {
+    font-size: 30px; }
+  .top-tour .des, .tour-service .des, .top-rest .des, .new-blog .des {
+    font-size: 16px; }
+
+  .top-tour {
+    padding: 55px 0; }
+    .top-tour .owl-dots {
+      margin-top: 20px !important; }
+      .top-tour .owl-dots .owl-dot span {
+        background: rgba(0, 0, 0, 0.25); }
+      .top-tour .owl-dots .owl-dot.active span {
+        background: #fe4850; }
+
+  .tour-service .service-list {
+    margin-bottom: 50px; }
+  .tour-service .service-item {
+    margin-bottom: 20px; }
+
+  .targets .target {
+    margin-bottom: 20px; }
+    .targets .target i {
+      font-size: 25px; }
+    .targets .target .content {
+      padding-top: 3px; }
+    .targets .target .target-name {
+      font-size: 17px; }
+    .targets .target p {
+      font-size: 14px; }
+
+  .top-rest {
+    padding: 55px 0; }
+    .top-rest .tabs {
+      margin-top: 35px;
+      margin-bottom: 35px; }
+      .top-rest .tabs .tab-btn {
+        font-size: 15px;
+        min-width: auto;
+        width: 45%;
+        margin-right: 2px;
+        margin-left: 2px;
+        padding-left: 0;
+        padding-right: 0; }
+    .top-rest .btn-view-more {
+      margin-top: 20px; }
+
+  .about-us {
+    padding: 80px 0;
+    background-image: url(../../images/theme1/bg-about-xs.jpg); }
+    .about-us:before, .about-us:after {
+      height: 35px;
+      background-size: 110% 100%; }
+    .about-us:before {
+      top: -1px; }
+    .about-us:after {
+      bottom: -1px; }
+    .about-us .title {
+      font-size: 30px; }
+    .about-us p {
+      padding: 0; }
+    .about-us .btn {
+      display: block;
+      margin-right: 0;
+      margin-bottom: 14px;
+      width: 100%; }
+
+  .new-blog {
+    padding: 55px 0; } }
+@media (min-width: 576px) and (max-width: 767.8px) {
+  .slides {
+    height: 300px; }
+    .slides .owl-carousel,
+    .slides .owl-stage-outer,
+    .slides .owl-stage,
+    .slides .owl-item {
+      height: 100% !important; }
+    .slides .owl-dots {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      z-index: 2;
+      margin-top: 0;
+      margin-bottom: 10px; }
+      .slides .owl-dots .owl-dot span {
+        background: rgba(0, 0, 0, 0.5);
+        width: 12px;
+        height: 12px; }
+      .slides .owl-dots .owl-dot.active span {
+        background: white;
+        border: 4px solid rgba(0, 0, 0, 0.8); }
+    .slides .slide-item {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden; }
+      .slides .slide-item img {
+        height: 100%;
+        width: auto;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        transform: translateX(-50%);
+        z-index: 0; }
+    .slides .slide-text {
+      width: 100%;
+      padding-left: 15px;
+      padding-right: 15px; }
+      .slides .slide-text .mouse-icon {
+        width: 25px;
+        height: 25px; }
+      .slides .slide-text .slide-h1 {
+        font-size: 30px; }
+      .slides .slide-text .slide-p {
+        font-size: 14px; }
+
+  .top-tour .title, .tour-service .title, .top-rest .title, .new-blog .title {
+    font-size: 30px; }
+  .top-tour .des, .tour-service .des, .top-rest .des, .new-blog .des {
+    font-size: 16px; }
+
+  .top-tour {
+    padding: 55px 0; }
+    .top-tour .owl-dots {
+      margin-top: 20px !important; }
+      .top-tour .owl-dots .owl-dot span {
+        background: rgba(0, 0, 0, 0.25); }
+      .top-tour .owl-dots .owl-dot.active span {
+        background: #fe4850; }
+
+  .tour-service .service-list {
+    margin-bottom: 50px; }
+  .tour-service .service-item {
+    margin-bottom: 20px; }
+
+  .targets .target {
+    margin-bottom: 20px; }
+    .targets .target i {
+      font-size: 25px; }
+    .targets .target .content {
+      padding-top: 3px; }
+    .targets .target .target-name {
+      font-size: 17px; }
+    .targets .target p {
+      font-size: 14px; }
+
+  .top-rest {
+    padding: 55px 0; }
+    .top-rest .tabs {
+      margin-top: 35px;
+      margin-bottom: 35px; }
+      .top-rest .tabs .tab-btn {
+        font-size: 15px; }
+    .top-rest .btn-view-more {
+      margin-top: 20px; }
+
+  .about-us {
+    padding: 80px 0;
+    background-image: url(../../images/theme1/bg-about-sm.jpg); }
+    .about-us:before, .about-us:after {
+      height: 35px; }
+    .about-us .title {
+      font-size: 30px; }
+    .about-us p {
+      padding: 0; }
+    .about-us .btn {
+      display: block;
+      margin-right: 0;
+      margin-bottom: 14px;
+      width: 100%; }
+
+  .new-blog {
+    padding: 55px 0; } }
+@media (min-width: 768px) and (max-width: 991.8px) {
+  .slides {
+    height: 300px; }
+    .slides .owl-carousel,
+    .slides .owl-stage-outer,
+    .slides .owl-stage,
+    .slides .owl-item {
+      height: 100% !important; }
+    .slides .owl-dots {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      z-index: 2;
+      margin-top: 0;
+      margin-bottom: 10px; }
+      .slides .owl-dots .owl-dot span {
+        background: rgba(0, 0, 0, 0.5);
+        width: 12px;
+        height: 12px; }
+      .slides .owl-dots .owl-dot.active span {
+        background: white;
+        border: 4px solid rgba(0, 0, 0, 0.8); }
+    .slides .slide-item {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden; }
+      .slides .slide-item img {
+        height: 100%;
+        width: auto;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        transform: translateX(-50%);
+        z-index: 0; }
+    .slides .slide-text {
+      width: 100%;
+      padding-left: 15px;
+      padding-right: 15px; }
+      .slides .slide-text .mouse-icon {
+        width: 25px;
+        height: 25px; }
+      .slides .slide-text .slide-h1 {
+        font-size: 30px; }
+      .slides .slide-text .slide-p {
+        font-size: 14px; }
+
+  .top-tour {
+    padding: 55px 0; }
+    .top-tour .owl-dots {
+      margin-top: 20px !important; }
+      .top-tour .owl-dots .owl-dot span {
+        background: rgba(0, 0, 0, 0.25); }
+      .top-tour .owl-dots .owl-dot.active span {
+        background: #fe4850; }
+
+  .tour-service .service-list {
+    margin-bottom: 50px; }
+  .tour-service .service-item {
+    margin-bottom: 20px; }
+
+  .targets .target {
+    margin-bottom: 20px; }
+    .targets .target i {
+      font-size: 25px; }
+    .targets .target .content {
+      padding-top: 3px; }
+    .targets .target .target-name {
+      font-size: 17px; }
+    .targets .target p {
+      font-size: 14px; }
+
+  .top-rest {
+    padding: 55px 0; }
+    .top-rest .tabs {
+      margin-top: 35px;
+      margin-bottom: 35px; }
+      .top-rest .tabs .tab-btn {
+        font-size: 15px;
+        margin-right: 2px;
+        margin-left: 2px; }
+    .top-rest .btn-view-more {
+      margin-top: 20px; }
+
+  .about-us {
+    padding: 80px 0;
+    background-image: url(../../images/theme1/bg-about-sm.jpg); }
+    .about-us:before, .about-us:after {
+      height: 35px; }
+    .about-us .title {
+      font-size: 30px; }
+    .about-us p {
+      padding: 0; }
+    .about-us .btn {
+      display: block;
+      margin-right: 0;
+      margin-bottom: 14px;
+      width: 100%; }
+
+  .new-blog {
+    padding: 55px 0; } }

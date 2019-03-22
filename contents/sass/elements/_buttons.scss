@@ -1,0 +1,164 @@
+.btn {
+  border-radius: 30px;
+  height: 42px;
+  padding: 0 25px;
+  line-height: 42px;
+}
+
+.btn-normal {
+  border-radius: 10px !important;
+  height: 100%; 
+}
+
+.btn-outline {
+  border: 1px solid $gray-ec;
+  background-color: white;
+
+  &.btn-outline-pink {
+    border-color: $mau-hong;
+    color: $mau-hong;
+
+    &:hover,&:focus {
+      color: white;
+      background-color: $mau-hong;
+    }
+  }
+
+  &.btn-outline-green {
+    border-color: $mau-xanh-ngoc;
+    color: darken($mau-xanh-ngoc,20);
+
+    &:hover,&:focus {
+      color: white;
+      background-color: $mau-xanh-ngoc;
+    }
+  }
+}
+
+.tab-btn {
+  border-color: $gray-e0;
+  min-width: 160px;
+
+  &:hover,&.active {
+    border-color: $mau-xanh-ngoc;
+    background-color: $mau-xanh-ngoc;
+    color: white;
+  }
+
+  &.active {
+    position: relative;
+    &:after {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      @include translateX(-50%);
+      margin-left: 4px;
+      content: '';
+      border: 7px solid transparent;
+      border-top-color: $mau-xanh-ngoc;
+    }
+  }
+}
+
+.btn-view-more {
+  border-color: $mau-xanh-ngoc;
+  color: $mau-xanh-ngoc - 75;
+
+  i {
+    margin-right: 10px;
+  }
+
+  &:hover,&:focus {
+    color: $mau-xanh-ngoc;
+  }
+}
+
+.btn-default {
+  background-color: $mau-xanh-ngoc;
+  color: white;
+
+  &:hover,&:focus {
+    color: white;
+    background-color: $mau-xanh-ngoc - 35;
+  }
+}
+
+.btn-pink {
+  background-color: $mau-hong;
+  color: white;
+
+  &:hover,&:focus {
+    color: white;
+    background-color: $mau-hong - 35;
+  }
+}
+
+.btn-gray {
+  background-color: $gray-e;
+  color: $gray-5;
+
+  &:hover,&:focus {
+    color: $gray-3;
+    background-color: $gray-e0;
+  }
+}
+
+.btn-white {
+  color: $gray-4;
+  background-color: white;
+
+  i {
+    margin-right: 10px;
+  }
+  
+
+  &:hover,&:focus {
+    
+    color: $mau-xanh-ngoc;
+  }
+}
+
+.btn-xs {
+  height: 34px !important;
+  line-height: 34px !important;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+}
+
+.btn-link {
+  // text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 0;
+  line-height: normal;
+  height: auto;
+
+  &:after {
+    content: '\f138';
+    font-family: $font-icon-outline;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 900;
+  }
+
+
+  &.pink-color {
+    &:hover,&:focus {
+      color: $mau-hong - 35;
+      text-decoration: none;
+    }
+  }
+  &.green-color {
+    &:hover,&:focus {
+      color: $mau-xanh-ngoc - 35;
+      text-decoration: none;
+    }
+  }
+}
+
+.btn-readmore {
+  i {
+    margin-left: 7px;
+  }
+}

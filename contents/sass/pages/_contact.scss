@@ -1,0 +1,28 @@
+.contacts {
+  padding: 20px 0 80px;
+
+  p {
+    font-weight: 500;
+  }
+
+  p,label {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  form {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .btn-submit {
+    min-width: 160px;
+    margin-top: 15px;
+  }
+}
+
+@include responsive(xs) {
+  .contacts {
+    padding-bottom: 50px;
+  }
+}

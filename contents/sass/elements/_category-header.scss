@@ -1,0 +1,48 @@
+//category header: background image
+.category-header {
+  background: url(../../images/temps/bg-cate.jpg) no-repeat center;
+  background-size: cover;
+  height: 320px;
+  
+  position: relative;
+  background-color: $gray-a;
+
+  * {
+    color: white;
+  }
+}
+
+.category-title {
+  font-size: 45px;
+  text-transform: uppercase;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  @include translateY(-50%);
+}
+
+@include responsive(xs) {
+  .category-header {
+    background: url(../../images/temps/bg-cate-xs.jpg) no-repeat center;
+    // min-height: 220px;
+    height: 220px;
+  }
+  .category-title {
+    font-size: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@include responsive(sm) {
+  .category-header {
+    background: url(../../images/temps/bg-cate-sm.jpg) no-repeat center;
+    height: 220px;
+  }
+  .category-title {
+    font-size: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

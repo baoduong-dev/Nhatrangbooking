@@ -1,0 +1,43 @@
+//effect transform 
+
+@mixin rotateX($value) {
+	-webkit-transform: rotateX(#{$value}deg);
+	-moz-transform: rotateX(#{$value}deg);
+	transform: rotateX(#{$value}deg);
+}
+
+@mixin rotateY($value) {
+	-webkit-transform: rotateY(#{$value}deg);
+	-moz-transform: rotateY(#{$value}deg);
+	transform: rotateY(#{$value}deg);
+}
+
+@mixin rotate($value) {
+	-webkit-transform: rotate(#{$value}deg);
+	-moz-transform: rotate(#{$value}deg);
+	transform: rotate(#{$value}deg);
+}
+
+@mixin translate($value_x, $value_y) {
+    -webkit-transform: translate($value_x, $value_y);
+    -moz-transform: translate($value_x, $value_y);
+    transform: translate($value_x, $value_y);
+}
+
+@mixin translateX($value) {
+    -webkit-transform: translateX($value);
+    -moz-transform: translateX($value);
+    transform: translateX($value);
+}
+
+@mixin translateY($value) {
+     -webkit-transform: translateY($value);
+    -moz-transform: translateY($value);
+    transform: translateY($value);
+}
+
+@mixin scale($width, $height) {
+    -webkit-transform: scale($width, $height);
+    -moz-transform: scale($width, $height);
+    transform: scale($width, $height);
+}

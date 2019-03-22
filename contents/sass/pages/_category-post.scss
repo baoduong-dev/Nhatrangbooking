@@ -1,0 +1,32 @@
+// category: Tours, Hotel - Resort, Tour Service, Ve may bay,...
+
+//category-service
+.category-post {
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  .pages {
+    margin-bottom: 50px;
+    padding-top: 0;
+  }
+}
+
+.blog-list {
+  [class*="col-"] {
+    margin-bottom: 40px;
+  }
+}
+
+@include responsive(xs) {
+  .blog-list {
+    [class*="col-"] {
+      margin-bottom: 0;
+    }
+  }
+
+  .category-post {
+    .pages {
+      padding-top: 25px;
+    }
+  }
+}

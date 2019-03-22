@@ -1,0 +1,239 @@
+.full-content {
+  p {
+    line-height: 1.8;
+    font-size: 17px;
+    margin-bottom: 30px;
+  }
+
+  img {
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  * {
+    font-family: 'Roboto Slab', sans-serif;
+  }
+
+  h2,h3,h4,h5,h6 {
+    margin-bottom: 30px;
+    margin-top: 15px;
+  }
+
+  h2 {
+    font-size: 28px;
+    &:before {
+      content: '';
+      display: inline-block;
+      margin-right: 4px;
+      position: relative;
+      // top: -3px;
+      border: 8px solid transparent;
+      border-left-color: $mau-hong;
+    }
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5,h6 {
+    font-size: 18px;
+  }
+
+  ul {
+    margin-bottom: 30px;
+    list-style: circle;
+    li {
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.content-element {
+  .title-element {
+    margin-left: -25px;
+    margin-top: 35px;
+  }
+  img {
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+
+  * {
+    font-family: 'Roboto Slab', sans-serif;
+  }
+
+  h3,h4,h5,h6 {
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5,h6 {
+    font-size: 16px;
+  }
+
+  ul {
+    li {
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+  }
+
+  .number {
+    list-style: decimal;
+  }
+
+  .abc {
+    list-style: lower-alpha;
+  }
+
+  .lich-trinh-tour {
+    list-style: none !important;
+    padding: 0;
+
+    p {
+      margin-bottom: 6px;
+    }
+
+    li {
+      padding-bottom: 18px;
+      position: relative;
+      padding-left: 35px;
+
+      &:before,&:after {
+        content: '';
+        position: absolute;
+      }
+
+      &:before {
+        content: '\f111';
+        font-size: 11px;
+        font-family: $font-icon-outline;
+        font-weight: 900;
+        color: $gray-8;
+        left: 0;
+        top: 5px;
+        z-index: 1;
+      }
+
+      &:after {
+        top: 14px;
+        left: 5px;
+        width: 1px;
+        height: 100%;
+        border-right: 1px dashed $gray-c;
+        z-index: 0;
+      }
+
+      &:last-child {
+        &:after {
+          display: none !important;
+        }
+      }
+    }
+  }
+
+  .tien-ich {
+    list-style: none;
+    padding: 0;
+
+    &:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+
+    li {
+      &:before {
+        content: '\f058';
+        font-family: $font-icon-outline;
+        margin-right: 12px;
+      }
+
+      float: left;
+      width: 33.333%;
+      padding-right: 20px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .cam-ket {
+    list-style: none;
+    margin: 0;
+    padding-left: 20px;
+
+    > li  {
+      font-weight: 700;
+      margin-bottom: 18px;
+
+      &:before {
+        content: '\f00c';
+        font-family: $font-icon-outline;
+        font-weight: 900;
+        color: darken($mau-xanh-ngoc,28);
+        opacity: .85;
+        margin-right: 10px;
+      }
+
+      p {
+        font-weight: 400;
+        padding-left: 30px;
+        margin-top: 6px;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .commitment {
+    padding: 20px 55px 20px 35px;
+    border: 1px solid darken($mau-xanh-ngoc,15);
+    @include gradient(to bottom, white, rgba($mau-xanh-ngoc,.07));
+    @include box-shadow(0,10px,60px,rgba(black,.1));
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      border: 20px solid transparent;
+      border-top-color: darken($mau-xanh-ngoc,15);
+      border-left-color: darken($mau-xanh-ngoc,15);
+    }
+
+    &:before {
+      position: absolute;
+      content: '\f058';
+      font-family: $font-icon-outline;
+      font-weight: 900;
+      top: 0;
+      right: 15px;
+      font-size: 54px;
+      opacity: .1;
+      color: darken($mau-xanh-ngoc,15);
+    }
+
+    .commit-title {
+      font-size: 18px;
+      color: darken($mau-xanh-ngoc,28);
+      margin-bottom: 30px;
+    }
+  }
+}
