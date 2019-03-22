@@ -65,9 +65,10 @@ $(function() {
   $('.tabs').on('click', 'button', function() {
     $('.tabs').find('.active').removeClass('active');
     $(this).addClass('active');
-    $('#btn-view-more-rest').attr('href', link);
+    
     var link = $(this).data('href');
     var filterValue = $(this).attr('data-filter');
+    $('#btn-view-more-rest').attr('href', link);
     rest.isotope({ filter: filterValue });
   });
 
