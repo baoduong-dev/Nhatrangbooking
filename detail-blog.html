@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="contents/css/bootstrap.min.css">
+  <link rel="stylesheet" href="contents/css/fontawesome.min.css">
+  <link rel="stylesheet" href="contents/css/style_header_footer.css">
+
+  <!-- ################# -->
+  <link rel="stylesheet" href="contents/css/fontawesome-stars.css">
+  <link rel="stylesheet" href="contents/css/lightgallery.min.css">
+  <link rel="stylesheet" href="contents/css/style_detail_blog.css">
+  <link rel="stylesheet" href="contents/css/style_detail_blog_res.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Roboto+Slab:400,700&amp;subset=vietnamese" rel="stylesheet">
+
+  <title>Detail Blog NTBK</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="#">
+        <img src="./images/theme1/logo.png" alt="Trang chủ NhaTrangBooking">
+      </a>
+    </div>
+    <div class="search-bar">
+      <form action="">
+        <input type="text" class="form-control" placeholder="Tìm kiếm mọi thứ bạn cần...">
+        <i class="fas fa-search"></i>
+      </form>
+    </div>
+    <nav class="nav-menu">
+      <ul class="main-menu">
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Tour</a>
+          <ul class="sub-menu">
+            <li class="sub-menu-item">
+              <a href="#">Tour 1 ngày</a>
+            </li>
+            <li class="sub-menu-item">
+              <a href="#">Tour dài ngày</a>
+            </li>
+            <li class="sub-menu-item">
+              <a href="#">Tour Nha Trang - Đà Lạt</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Dịch vụ du lịch</a>
+        </li>
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Dịch vụ Vé</a>
+        </li>
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Lưu trú</a>
+        </li>
+        <li class="menu-item menu-more">
+          <a href="javascript:;">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="main-menu-2">
+        <li class="menu-item-2">
+          <a href="#">Địa điểm du lịch</a>
+        </li>
+        <li class="menu-item-2">
+          <a href="#">Ăn uống</a>
+        </li>
+        <li class="menu-item-2">
+          <a href="#">Sức khỏe</a>
+        </li>
+        <li class="menu-item-2 menu-parent">
+          <a href="javascript:;">Blog</a>
+          <ul class="sub-menu">
+            <li class="sub-menu-item">
+              <a href="#">Blog du lịch</a>
+            </li>
+            <li class="sub-menu-item">
+              <a href="#">Blog kiến thức</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- reponsive -->
+    <button class="btn btn-toggle-menu">
+      <span class="top-bar"></span>
+      <span class="middle-bar"></span>
+      <span class="bottom-bar"></span>
+      <span class="text">Menu</span>
+    </button>
+
+    <button class="btn btn-toggle-search">
+      <i class="fas fa-search"></i>
+    </button>
+
+    <nav class="nav-menu-responsive">
+      <button class="btn btn-close-menu"><i class="fas fa-long-arrow-alt-left"></i>Thoát</button>
+      <ul class="main-menu">
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Tour</a>
+          <ul class="sub-menu">
+            <li class="sub-menu-item">
+              <a href="#">Tour 1 ngày</a>
+            </li>
+            <li class="sub-menu-item">
+              <a href="#">Tour dài ngày</a>
+            </li>
+            <li class="sub-menu-item">
+              <a href="#">Tour Nha Trang - Đà Lạt</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Dịch vụ du lịch</a>
+        </li>
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Dịch vụ Vé</a>
+        </li>
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Lưu trú</a>
+        </li>
+        <li class="menu-item">
+          <a href="#">Địa điểm du lịch</a>
+        </li>
+        <li class="menu-item">
+          <a href="#">Ăn uống</a>
+        </li>
+        <li class="menu-item">
+          <a href="#">Sức khỏe</a>
+        </li>
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Blog</a>
+          <ul class="sub-menu">
+            <li class="sub-menu-item">
+              <a href="#">Blog du lịch</a>
+            </li>
+            <li class="sub-menu-item">
+              <a href="#">Blog kiến thức</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  <section class="main">
+    <div class="detail-thumbnail">
+      <picture>
+        <!-- top image on mobile (chi load tren mobile) -->
+        <source media="(max-width: 576px)" srcset="https://via.placeholder.com/450x304.jpg">
+        <!-- top image on ipad (chi load tren ipad) -->
+        <source media="(max-width: 992px)" srcset="https://via.placeholder.com/780x527.jpg">
+        <!-- top image default (khong load tren mobile,ipad) -->
+        <img src="https://via.placeholder.com/1600x1080.jpg" alt="hinh anh">
+      </picture>
+      
+      <div class="container">
+        <div class="watching">
+          <button class="btn btn-white" id="btn_video" data-toggle="modal" data-target="#modal_video" data-youtube="https://youtu.be/qnl_ei7j_LY">
+            <i class="fas fa-play"></i>
+            Xem video
+          </button>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="detail-post">
+      <div class="container">
+        <div class="detail-post-container">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Tour Nha Trang 1 ngày</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Tour Bình Ba 1 ngày</li>
+            </ol>
+          </nav>
+
+          <!-- video -->
+          <div class="modal fade modal-fullscreen" id="modal_video" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+              <div class="modal-content">
+                <button type="button" class="btn btn-close" data-dismiss="modal"><i class="fas fa-times"></i></button>
+                <div class="embed-responsive embed-responsive-16by9 embed-video">
+                  <iframe class="embed-responsive-item embed-video-url" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h1>Kinh nghiệm đi đảo bình ba</h1>
+
+          <!-- full content -->
+          <div class="content-element">
+            <h2>Về đảo Bình Ba</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ad pariatur aliquam doloremque amet nobis sapiente fugiat earum praesentium dignissimos quibusdam nemo laborum blanditiis optio, aspernatur neque tempore, quo eaque.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ad pariatur aliquam doloremque amet nobis sapiente fugiat earum praesentium dignissimos quibusdam nemo laborum blanditiis optio, aspernatur neque tempore, quo eaque.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ad pariatur aliquam doloremque amet nobis sapiente fugiat earum praesentium dignissimos quibusdam nemo laborum blanditiis optio, aspernatur neque tempore, quo eaque.</p>
+
+            <div class="image-popup image-popup-2">
+              <a href="https://images.pexels.com/photos/58597/pexels-photo-58597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <img src="https://via.placeholder.com/280x170.jpg" alt="Tên hình 1">
+              </a>
+              <a href="https://images.pexels.com/photos/414578/pexels-photo-414578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <img src="https://via.placeholder.com/280x170.jpg" alt="Tên hình 2">
+              </a>
+            </div>
+
+            <div class="image-popup image-popup-3">
+              <a href="https://images.pexels.com/photos/58597/pexels-photo-58597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <img src="https://via.placeholder.com/280x170.jpg" alt="Tên hình 1">
+              </a>
+              <a href="https://images.pexels.com/photos/414578/pexels-photo-414578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <img src="https://via.placeholder.com/280x170.jpg" alt="Tên hình 2">
+              </a>
+              <a href="https://images.pexels.com/photos/980221/pexels-photo-980221.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <img src="https://via.placeholder.com/280x170.jpg" alt="Tên hình 3">
+              </a>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ad pariatur aliquam doloremque amet nobis sapiente fugiat earum praesentium dignissimos quibusdam nemo laborum blanditiis optio, aspernatur neque tempore, quo eaque.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ad pariatur aliquam doloremque amet nobis sapiente fugiat earum praesentium dignissimos quibusdam nemo laborum blanditiis optio, aspernatur neque tempore, quo eaque.</p>
+
+            <div class="image-popup image-popup-4">
+              <a href="https://images.pexels.com/photos/58597/pexels-photo-58597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <img src="https://via.placeholder.com/280x170.jpg" alt="Tên hình 1">
+              </a>
+              <a href="https://images.pexels.com/photos/414578/pexels-photo-414578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <img src="https://via.placeholder.com/280x170.jpg" alt="Tên hình 2">
+              </a>
+              <a href="https://images.pexels.com/photos/980221/pexels-photo-980221.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <img src="https://via.placeholder.com/280x170.jpg" alt="Tên hình 3">
+              </a>
+              <a href="https://images.pexels.com/photos/1079052/pexels-photo-1079052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <img src="https://via.placeholder.com/280x170.jpg" alt="Tên hình 4">
+              </a>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ad pariatur aliquam doloremque amet nobis sapiente fugiat earum praesentium dignissimos quibusdam nemo laborum blanditiis optio, aspernatur neque tempore, quo eaque.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ad pariatur aliquam doloremque amet nobis sapiente fugiat earum praesentium dignissimos quibusdam nemo laborum blanditiis optio, aspernatur neque tempore, quo eaque.</p>
+
+            <div class="image-popup image-popup-5">
+              <a href="https://images.pexels.com/photos/58597/pexels-photo-58597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <img src="https://via.placeholder.com/280x170.jpg" alt="Tên hình 1">
+              </a>
+              <a href="https://images.pexels.com/photos/414578/pexels-photo-414578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <img src="https://via.placeholder.com/280x170.jpg" alt="Tên hình 2">
+              </a>
+              <a href="https://images.pexels.com/photos/980221/pexels-photo-980221.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <img src="https://via.placeholder.com/280x170.jpg" alt="Tên hình 3">
+              </a>
+              <a href="https://images.pexels.com/photos/1079052/pexels-photo-1079052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <img src="https://via.placeholder.com/280x170.jpg" alt="Tên hình 4">
+              </a>
+              <a href="https://images.pexels.com/photos/1070139/pexels-photo-1070139.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <img src="https://via.placeholder.com/280x170.jpg" alt="Tên hình 5">
+              </a>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ad pariatur aliquam doloremque amet nobis sapiente fugiat earum praesentium dignissimos quibusdam nemo laborum blanditiis optio, aspernatur neque tempore, quo eaque.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ad pariatur aliquam doloremque amet nobis sapiente fugiat earum praesentium dignissimos quibusdam nemo laborum blanditiis optio, aspernatur neque tempore, quo eaque.</p>
+
+            <div class="image-popup image-popup-9">
+              <a href="https://images.pexels.com/photos/58597/pexels-photo-58597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <img src="https://via.placeholder.com/280x170.jpg" alt="Tên hình 1">
+              </a>
+              <a href="https://images.pexels.com/photos/414578/pexels-photo-414578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <img src="https://via.placeholder.com/280x170.jpg" alt="Tên hình 2">
+              </a>
+              <a href="https://images.pexels.com/photos/980221/pexels-photo-980221.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <img src="https://via.placeholder.com/280x170.jpg" alt="Tên hình 3">
+              </a>
+              <a href="https://images.pexels.com/photos/1079052/pexels-photo-1079052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <img src="https://via.placeholder.com/280x170.jpg" alt="Tên hình 4">
+              </a>
+              <a href="https://images.pexels.com/photos/1070139/pexels-photo-1070139.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <img src="https://via.placeholder.com/280x170.jpg" alt="Tên hình 5">
+              </a>
+              <a href="https://images.pexels.com/photos/572741/pexels-photo-572741.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <img src="https://via.placeholder.com/280x170.jpg" alt="Tên hình 6">
+              </a>
+              <a href="https://images.pexels.com/photos/33545/sunrise-phu-quoc-island-ocean.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <img src="https://via.placeholder.com/280x170.jpg" alt="Tên hình 7">
+              </a>
+              <a href="https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <img src="https://via.placeholder.com/280x170.jpg" alt="Tên hình 8">
+              </a>
+              <a href="https://images.pexels.com/photos/346768/pexels-photo-346768.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <img src="https://via.placeholder.com/280x170.jpg" alt="Tên hình 9">
+              </a>
+            </div>
+
+
+
+          </div><!-- end detail full content -->
+
+          <!-- comment -->
+          <div class="comments" id="binh_luan">
+            <div class="row">
+              <div class="col-12 col-lg-8 offset-lg-2">
+                <div class="content-element">
+                  <h2 class="title-element">Bình luận</h2>
+  
+                  <div class="total-rating">
+                    <div class="rating">
+                      <p>
+                        <i class="fas fa-star"></i>
+                        4,5
+                        <span>/ 5</span>
+                      </p>
+                    </div>
+                    <div class="counter">
+                      <p>Có <span>145</span> lượt đánh giá</p>
+                    </div>
+                  </div>
+                  
+                  <div class="comment-list">
+                    <div class="comment-item">
+                      <p class="author-name">Lý Tú Quyên</p>
+                      <div class="author-rate">
+                        <div class="rating">
+                          <select class="rating-star">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5" selected>5</option>
+                          </select>
+                        </div>
+                        <span class="created-date">17/11/2018 07:34 AM</span>
+                      </div>
+                      <div class="author-content">
+                        <p>Đặt vé phản hồi thông tin nhanh chóng, dễ dàng, lúc đổi vé thủ tục nhanh chóng, gần như ko phải xếp hàng chờ đợi lâu, giá cả tiết kiệm</p>
+                      </div>
+                    </div>
+  
+                    <div class="comment-item">
+                      <p class="author-name">Lý Tú Quyên</p>
+                      <div class="author-rate">
+                        <div class="rating">
+                          <select class="rating-star">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3" selected>3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </select>
+                        </div>
+                        <span class="created-date">17/11/2018 07:34 AM</span>
+                      </div>
+                      <div class="author-content">
+                        <p>Đặt vé phản hồi thông tin nhanh chóng, dễ dàng, lúc đổi vé thủ tục nhanh chóng, gần như ko phải xếp hàng chờ đợi lâu, giá cả tiết kiệm</p>
+                      </div>
+                    </div>
+  
+                    <div class="comment-item">
+                      <p class="author-name">Lý Tú Quyên</p>
+                      <div class="author-rate">
+                        <div class="rating">
+                          <select class="rating-star">
+                            <option value="1" selected>1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </select>
+                        </div>
+                        <span class="created-date">17/11/2018 07:34 AM</span>
+                      </div>
+                      <div class="author-content">
+                        <p>Đặt vé phản hồi thông tin nhanh chóng, dễ dàng, lúc đổi vé thủ tục nhanh chóng, gần như ko phải xếp hàng chờ đợi lâu, giá cả tiết kiệm</p>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="text-center">
+                    <a href="#" class="btn btn-radius btn-gray btn-comment-more">Tải thêm bình luận</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- end comment -->
+
+        </div>
+      </div>
+
+      
+
+      
+
+
+    </div>
+
+
+    
+
+    <div class="related">
+      <div class="container">
+        <div class="related-blog">
+          <h2 class="title">Các Bài viết khác</h2>
+          <div class="row blog-list">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+              <div class="blog-item">
+                <figure class="thumb">
+                  <a href="#">
+                    <img src="https://via.placeholder.com/400x270.jpg" alt="tour 1">
+                  </a>
+                  <span class="video-icon" data-toggle="tooltip" data-placement="top" title="Bài viết có Video"><i class="fas fa-video"></i></span>
+                  <div class="cate"><a href="#">#Blog du lịch</a></div>
+                </figure>
+                <div class="content">
+                  <a href="#" class="blog-name">Khu du lịch suối (đảo) Hoa
+                    Lan điểm đến thú vị tại Nha
+                    Trang</a>
+                  <a href="#" class="pink-color btn-link">đọc tiếp</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+              <div class="blog-item">
+                <figure class="thumb">
+                  <a href="#">
+                    <img src="https://via.placeholder.com/400x270.jpg" alt="tour 1">
+                  </a>
+                  <span class="video-icon" data-toggle="tooltip" data-placement="top" title="Bài viết có Video"><i class="fas fa-video"></i></span>
+                  <div class="cate"><a href="#">#Blog du lịch</a></div>
+                </figure>
+                <div class="content">
+                  <a href="#" class="blog-name">Khu du lịch suối (đảo) Hoa
+                    Lan điểm đến thú vị tại Nha
+                    Trang</a>
+                  <a href="#" class="pink-color btn-link">đọc tiếp</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+              <div class="blog-item">
+                <figure class="thumb">
+                  <a href="#">
+                    <img src="https://via.placeholder.com/400x270.jpg" alt="tour 1">
+                  </a>
+                  <span class="video-icon" data-toggle="tooltip" data-placement="top" title="Bài viết có Video"><i class="fas fa-video"></i></span>
+                  <div class="cate"><a href="#">#Blog du lịch</a></div>
+                </figure>
+                <div class="content">
+                  <a href="#" class="blog-name">Khu du lịch suối (đảo) Hoa
+                    Lan điểm đến thú vị tại Nha
+                    Trang</a>
+                  <a href="#" class="pink-color btn-link">đọc tiếp</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+
+
+
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+          <div class="logo-footer">
+            <a href="#">
+              <img src="images/theme1/logo-footer.png" alt="NhaTrangBooking">
+            </a>
+          </div>
+
+          <p class="copyright">© 2018 NhaTrangBooking</p>
+
+          <div class="socials">
+            <a href="#" class="social" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social" target="_blank">
+              <i class="fab fa-tumblr"></i>
+            </a>
+            <a href="#" class="social" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <h4 class="title-col">Chính sách</h4>
+          <ul class="quick-links">
+            <li>
+              <a href="#">Điều khoản sử dụng</a>
+            </li>
+            <li>
+              <a href="#">Quyền riêng tư</a>
+            </li>
+            <li>
+              <a href="#">Chính sách Cookie</a>
+            </li>
+            <li>
+              <a href="#">Chính sách và quy định</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-5">
+          <h4 class="title-col">Liên hệ chúng tôi</h4>
+
+          <ul class="contact-info">
+            <li>
+              <i class="fas fa-phone"></i>
+              0981.211.948 - 0961.277.753
+            </li>
+            <li>
+              <i class="fas fa-map-marker"></i>
+              25 Nguyễn Văn Bảy, P.Phước Long, Nha Trang
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i>
+              info@nhatrangbooking.com.vn
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="page-links">
+        <ul>
+          <li>
+            <a href="#">Về chúng tôi</a>
+          </li>
+          <li>
+            <a href="#">Hướng Dẫn Thanh Toán</a>
+          </li>
+          <li>
+            <a href="#">Blog du lịch</a>
+          </li>
+          <li>
+            <a href="#">Blog tin tức</a>
+          </li>
+          <li>
+            <a href="#">Liên hệ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- All Page JS -->
+  <script src="contents/js/jquery-3.3.1.min.js"></script>
+  <script src="contents/js/popper.min.js"></script>
+  <script src="contents/js/bootstrap.min.js"></script>
+  <script src="contents/js/lazyload.min.js"></script>
+  <script src="contents/js/all.js"></script>
+  <!-- ####### -->  
+  <script src="contents/js/jquery.barrating.min.js"></script>
+  <script src="contents/js/lightgallery-all.min.js"></script>
+  <script src="contents/js/detail-post-data.js"></script>
+
+
+  <script>
+    
+  </script>
+</body>
+</html>

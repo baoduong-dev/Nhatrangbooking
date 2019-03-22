@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="contents/css/bootstrap.min.css">
+  <link rel="stylesheet" href="contents/css/fontawesome.min.css">
+  <link rel="stylesheet" href="contents/css/style_header_footer.css">
+
+  <!-- ################# -->
+  <link rel="stylesheet" href="contents/css/fontawesome-stars.css">
+  <link rel="stylesheet" href="contents/css/lightgallery.min.css">
+  <link rel="stylesheet" href="contents/css/style_detail_service.css">
+  <link rel="stylesheet" href="contents/css/style_detail_service_res.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Roboto+Slab:400,700&amp;subset=vietnamese" rel="stylesheet">
+
+  <title>Detail Tour NTBK</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="#">
+        <img src="./images/theme1/logo.png" alt="Trang chủ NhaTrangBooking">
+      </a>
+    </div>
+    <div class="search-bar">
+      <form action="">
+        <input type="text" class="form-control" placeholder="Tìm kiếm mọi thứ bạn cần...">
+        <i class="fas fa-search"></i>
+      </form>
+    </div>
+    <nav class="nav-menu">
+      <ul class="main-menu">
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Tour</a>
+          <ul class="sub-menu">
+            <li class="sub-menu-item">
+              <a href="#">Tour 1 ngày</a>
+            </li>
+            <li class="sub-menu-item">
+              <a href="#">Tour dài ngày</a>
+            </li>
+            <li class="sub-menu-item">
+              <a href="#">Tour Nha Trang - Đà Lạt</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Dịch vụ du lịch</a>
+        </li>
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Dịch vụ Vé</a>
+        </li>
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Lưu trú</a>
+        </li>
+        <li class="menu-item menu-more">
+          <a href="javascript:;">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="main-menu-2">
+        <li class="menu-item-2">
+          <a href="#">Địa điểm du lịch</a>
+        </li>
+        <li class="menu-item-2">
+          <a href="#">Ăn uống</a>
+        </li>
+        <li class="menu-item-2">
+          <a href="#">Sức khỏe</a>
+        </li>
+        <li class="menu-item-2 menu-parent">
+          <a href="javascript:;">Blog</a>
+          <ul class="sub-menu">
+            <li class="sub-menu-item">
+              <a href="#">Blog du lịch</a>
+            </li>
+            <li class="sub-menu-item">
+              <a href="#">Blog kiến thức</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- reponsive -->
+    <button class="btn btn-toggle-menu">
+      <span class="top-bar"></span>
+      <span class="middle-bar"></span>
+      <span class="bottom-bar"></span>
+      <span class="text">Menu</span>
+    </button>
+
+    <button class="btn btn-toggle-search">
+      <i class="fas fa-search"></i>
+    </button>
+
+    <nav class="nav-menu-responsive">
+      <button class="btn btn-close-menu"><i class="fas fa-long-arrow-alt-left"></i>Thoát</button>
+      <ul class="main-menu">
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Tour</a>
+          <ul class="sub-menu">
+            <li class="sub-menu-item">
+              <a href="#">Tour 1 ngày</a>
+            </li>
+            <li class="sub-menu-item">
+              <a href="#">Tour dài ngày</a>
+            </li>
+            <li class="sub-menu-item">
+              <a href="#">Tour Nha Trang - Đà Lạt</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Dịch vụ du lịch</a>
+        </li>
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Dịch vụ Vé</a>
+        </li>
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Lưu trú</a>
+        </li>
+        <li class="menu-item">
+          <a href="#">Địa điểm du lịch</a>
+        </li>
+        <li class="menu-item">
+          <a href="#">Ăn uống</a>
+        </li>
+        <li class="menu-item">
+          <a href="#">Sức khỏe</a>
+        </li>
+        <li class="menu-item menu-parent">
+          <a href="javascript:;">Blog</a>
+          <ul class="sub-menu">
+            <li class="sub-menu-item">
+              <a href="#">Blog du lịch</a>
+            </li>
+            <li class="sub-menu-item">
+              <a href="#">Blog kiến thức</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  <section class="main">
+    <div class="detail-thumbnail">
+      <picture>
+        <!-- top image on mobile (chi load tren mobile) -->
+        <source media="(max-width: 576px)" srcset="https://via.placeholder.com/450x304.jpg">
+        <!-- top image on ipad (chi load tren ipad) -->
+        <source media="(max-width: 992px)" srcset="https://via.placeholder.com/780x527.jpg">
+        <!-- top image default (khong load tren mobile,ipad) -->
+        <img src="https://via.placeholder.com/1600x1080.jpg" alt="hinh anh">
+      </picture>
+      
+      <div class="container">
+        <div class="watching">
+          <button class="btn btn-white" id="btn_video" data-toggle="modal" data-target="#modal_video" data-youtube="https://youtu.be/qnl_ei7j_LY">
+            <i class="fas fa-play"></i>
+            Xem video
+          </button>
+
+          <button class="btn btn-white" id="btn_gallery">
+            <i class="far fa-image"></i>
+            Xem Album hình
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Tour Nha Trang 1 ngày</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Tour Bình Ba 1 ngày</li>
+        </ol>
+      </nav>
+    </div>
+
+    <div class="detail-service">
+      <!-- gallery -->
+      <div class="detail-gallery">
+        <div id="gallery">
+          <a href="https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="gallery-item">
+            <img src="https://via.placeholder.com/200x200.jpg" alt="ten bai viet" >
+          </a>
+          <a href="https://images.pexels.com/photos/348523/pexels-photo-348523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="gallery-item">
+            <img src="https://via.placeholder.com/200x200.jpg" alt="ten bai viet" >
+          </a>
+          <a href="https://images.pexels.com/photos/753626/pexels-photo-753626.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="gallery-item">
+            <img src="https://via.placeholder.com/200x200.jpg" alt="ten bai viet" >
+          </a>
+          <a href="https://images.pexels.com/photos/66258/staniel-cay-swimming-pig-seagull-fish-66258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="gallery-item">
+            <img src="https://via.placeholder.com/200x200.jpg" alt="ten bai viet">
+          </a>
+          <a href="https://images.pexels.com/photos/678725/pexels-photo-678725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="gallery-item">
+            <img src="https://via.placeholder.com/200x200.jpg" alt="ten bai viet" >
+          </a>
+        </div>
+      </div>
+
+      <!-- video -->
+      <div class="modal fade modal-fullscreen" id="modal_video" tabindex="-1" role="dialog" aria-labelledby="modal_video" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+            <button type="button" class="btn btn-close" data-dismiss="modal"><i class="fas fa-times"></i></button>
+            <div class="embed-responsive embed-responsive-16by9 embed-video">
+              <iframe class="embed-responsive-item embed-video-url" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="detail-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-8">
+              <h1>Tour Bình Ba 1 ngày</h1>
+
+              <div class="notice">
+                <div class="alert alert-warning">
+                  <i class="fas fa-exclamation-circle"></i>
+                  <div class="alert-content">
+                    <p><strong>CHÚ Ý</strong></p>
+                    <p>
+                      Tour Bình Ba chỉ dành cho Khách Việt Nam, khi đi quý Khách xin hãy mang theo <strong>CMND</strong> hoặc giấy tờ tùy thân liên quan để Chức trách viên kiểm tra khi cần.
+                    </p>
+                    <a href="#">Xem thêm tại đây!</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-elements">
+                <div class="tab-list">
+                  <a class="tab" href="#lich_trinh">Lịch trình</a>
+                  <a class="tab" href="#thuc_don">Thực đơn</a>
+                  <a class="tab" href="#goi_tour">Gói Tour</a>
+                  <a class="tab" href="#chinh_sach_huy">Chính sách Hủy</a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-12 col-lg-4">
+              <div class="right-side">
+                <div class="main-price">
+                  <div class="price-group">
+                    <p class="price">
+                      <span class="old-price">350.000đ</span>
+                      <span class="new-price">250.000đ</span>/ người lớn
+                    </p>
+
+                    <p class="price-notice"><i class="pink-color fas fa-exclamation-circle"></i> Giá trên không bao gồm chi phí phát sinh ngoài chương trình</p>
+                  </div>
+                  
+                  <div class="action-group">
+                    <a href="#" class="btn btn-radius btn-pink btn-booking">Đặt tour</a>
+                    <a href="#cam_ket" class="btn btn-outline btn-outline-green btn-cam-ket">Cam kết NhaTrangBooking</a>
+                  </div>
+                </div>
+
+                <div class="hotline">
+                  <div class="call text-center">
+                    <p><i class="fas fa-phone pink-color"></i>hotline 24/7:</p>
+                    <a href="tel:0938511948" class="pink-color">0938.511.948</a>
+                    -
+                    <a href="tel:0123456789" class="pink-color">0123.456.789</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="detail-body">
+        <div class="container">
+          <div class="row">
+            
+            <div class="col-12 col-lg-8">
+              <!-- full content -->
+              <div class="content-element">
+                <h2 class="title-element">Thông tin <span class="pink-color">Tour</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ad pariatur aliquam doloremque amet nobis sapiente fugiat earum praesentium dignissimos quibusdam nemo laborum blanditiis optio, aspernatur neque tempore, quo eaque.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ad pariatur aliquam doloremque amet nobis sapiente fugiat earum praesentium dignissimos quibusdam nemo laborum blanditiis optio, aspernatur neque tempore, quo eaque.</p>
+
+                <img src="https://via.placeholder.com/800x480.jpg" alt="ten hinh">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ad pariatur aliquam doloremque amet nobis sapiente fugiat earum praesentium dignissimos quibusdam nemo laborum blanditiis optio, aspernatur neque tempore, quo eaque.</p>
+
+                <img src="https://via.placeholder.com/800x480.jpg" alt="ten hinh">
+
+                <h2 class="title-element" id="lich_trinh">Lịch trình <span class="pink-color">Tour</span></h2>
+                
+                <h3>Lịch trình Tour 3 đảo DELUXE</h3>
+                <ul class="lich-trinh-tour">
+                  <li>
+                    <p><strong>7h00 - 8h15</strong></p>
+                    <p>Đón Khách tại điểm hẹn trong TP Nha Trang.</p>
+                  </li>
+                  <li>
+                    <p><strong>8h30 - 9h45</strong></p>
+                    <p>Di chuyển ra đảo Điệp Sơn bằng xe và cano.</p>
+                  </li>
+                  <li>
+                    <p><strong>11h00 - 13h00</strong></p>
+                    <p>Khám phá đảo, dạo bước trên con đường đi bộ xuyên biển độc đáo. Tự do vui chơi, tắm biển. Quý khách có thể chèo thuyền thúng, kayak, motor nước (chi phí tự túc). Ghé nhà hàng nghỉ ngơi + ăn trưa.</p>
+                  </li>
+                  <li>
+                    <p><strong>13h00 - 15h30</strong></p>
+                    <p>Tham quan khu du lịch Dốc Lết với bãi tắm tuyệt đẹp (đã được bao vé). Ngoài ra quý khách có thể thưởng thức những trò chơi dưới nước tại đây hoặc gọi thêm hải sản (với chi phí tự túc).</p>
+                  </li>
+                  <li>
+                    <p><strong>15h30 - 16h30</strong></p>
+                    <p>Kết thúc Tour, xe đưa quý khách quay lại thành phố Nha Trang.</p>
+                  </li>
+                </ul>
+
+                <h3>Lịch trình Tour 3 đảo VIP</h3>
+                <ul class="lich-trinh-tour">
+                  <li>
+                    <p><strong>7h00 - 8h15</strong></p>
+                    <p>Đón Khách tại điểm hẹn trong TP Nha Trang.</p>
+                  </li>
+                  <li>
+                    <p><strong>8h30 - 9h45</strong></p>
+                    <p>Di chuyển ra đảo Điệp Sơn bằng xe và cano.</p>
+                  </li>
+                  <li>
+                    <p><strong>11h00 - 13h00</strong></p>
+                    <p>Khám phá đảo, dạo bước trên con đường đi bộ xuyên biển độc đáo. Tự do vui chơi, tắm biển. Quý khách có thể chèo thuyền thúng, kayak, motor nước (chi phí tự túc). Ghé nhà hàng nghỉ ngơi + ăn trưa.</p>
+                  </li>
+                  <li>
+                    <p><strong>13h00 - 15h30</strong></p>
+                    <p>Tham quan khu du lịch Dốc Lết với bãi tắm tuyệt đẹp (đã được bao vé). Ngoài ra quý khách có thể thưởng thức những trò chơi dưới nước tại đây hoặc gọi thêm hải sản (với chi phí tự túc).</p>
+                  </li>
+                  <li>
+                    <p><strong>15h30 - 16h30</strong></p>
+                    <p>Kết thúc Tour, xe đưa quý khách quay lại thành phố Nha Trang.</p>
+                  </li>
+                </ul>
+
+                <h2 class="title-element" id="thuc_don">Thực đơn <span class="pink-color">Tour</span></h2>
+                <ul>
+                    <li>Mực Chiên</li>
+                    <li>Cốt Lết</li>
+                    <li>Canh Laghim</li>
+                    <li>Tôm ram thịt</li>
+                    <li>Chả cá hoặc trứng chiên</li>
+                    <li>Cơm trắng</li>
+                    <li>Tráng miệng và nước uống</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="package-service" id="goi_tour">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-8">
+              <h2 class="title-element">Các gói <span class="pink-color">Tour</span></h2>
+              <p>Vui lòng chọn một trong các gói Tour (nhấp vào <strong>“Xem chi tiết”</strong> để xem đầy đủ gói Tour).</p>
+
+              <div class="package-item package-tour-item">
+                <h3 class="package-name">Gói tour 3 đảo deluxe</h3>
+
+                <div class="package-price">
+                  <span class="new-price">450.000đ</span>
+                  <button class="btn btn-xs btn-outline btn-outline-pink btn-select">Chọn</button>
+                </div>
+
+                <div class="package-info">
+                  <p><strong>Giá vé trọn gói:</strong></p>
+                  <ul>
+                    <li>450.000đ <em>/ người lớn</em></li>
+                    <li>250.000đ <em>/ trẻ em</em></li>
+                  </ul>
+                  <p><strong>Đã bao gồm:</strong></p>
+                  <ul>
+                    <li>Phí tổ chức</li>
+                    <li>Cano vận chuyển</li>
+                    <li>Ăn trưa</li>
+                    <li>Phí cầu Cảng</li>
+                    <li>Phí lên đảo Làng Chài</li>
+                    <li>Phí lên đảo Hòn Mun</li>
+                  </ul>
+
+                  <p><strong>Không bao gồm:</strong></p>
+                  <ul>
+                    <li>Chi phí ngoài chương trình</li>
+                    <li>Lặn ngắm San hô bằng bình Khí</li>
+                    <li>VAT</li>
+                  </ul>
+                </div>
+                
+                <a href="javascript:;" class="btn btn-viewmore pink-color btn-link">Xem chi tiết</a>
+              </div>
+
+              <div class="package-item package-tour-item">
+                <h3 class="package-name">Gói tour 3 đảo vip</h3>
+
+                <div class="package-price">
+                  <span class="new-price">650.000đ</span>
+                  <button class="btn btn-xs btn-outline btn-outline-pink btn-select">Chọn</button>
+                </div>
+
+                <div class="package-info">
+                  <p><strong>Đã bao gồm:</strong></p>
+                  <ul>
+                    <li>Phí tổ chức</li>
+                    <li>Cano vận chuyển</li>
+                    <li>Ăn trưa</li>
+                    <li>Phí cầu Cảng</li>
+                    <li>Phí lên đảo Làng Chài</li>
+                    <li>Phí lên đảo Hòn Mun</li>
+                  </ul>
+
+                  <p><strong>Không bao gồm:</strong></p>
+                  <ul>
+                    <li>Chi phí ngoài chương trình</li>
+                    <li>Lặn ngắm San hô bằng bình Khí</li>
+                    <li>VAT</li>
+                  </ul>
+                </div>
+                
+                <a href="javascript:;" class="btn btn-viewmore pink-color btn-link">Xem chi tiết</a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="detail-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-8">
+              <!-- full content -->
+              <div class="content-element">
+                <h2 class="title-element"><span class="pink-color">5 địa điểm</span> Nổi bật trong Tour</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ad pariatur aliquam doloremque amet nobis sapiente fugiat earum praesentium dignissimos quibusdam nemo laborum blanditiis optio, aspernatur neque tempore, quo eaque.</p>
+                
+                <ul class="number">
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                </ul>
+
+                <ul class="abc">
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                  </ul>
+
+                <img src="https://via.placeholder.com/800x480.jpg" alt="ten hinh">
+
+                <h3>Địa điểm 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ad pariatur aliquam doloremque amet nobis sapiente fugiat earum praesentium dignissimos quibusdam nemo laborum blanditiis optio, aspernatur neque tempore, quo eaque.</p>
+                <img src="https://via.placeholder.com/800x480.jpg" alt="ten hinh">
+
+                <h4>Địa điểm 2</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ad pariatur aliquam doloremque amet nobis sapiente fugiat earum praesentium dignissimos quibusdam nemo laborum blanditiis optio, aspernatur neque tempore, quo eaque.</p>
+                <img src="https://via.placeholder.com/800x480.jpg" alt="ten hinh">
+
+                <h5>Địa điểm 3</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ad pariatur aliquam doloremque amet nobis sapiente fugiat earum praesentium dignissimos quibusdam nemo laborum blanditiis optio, aspernatur neque tempore, quo eaque.</p>
+                <img src="https://via.placeholder.com/800x480.jpg" alt="ten hinh">
+
+
+                <h2 class="title-element" id="chinh_sach_huy">Chính sách hủy <span class="pink-color">Tour</span></h2>
+                <ul>
+                  <li>Hủy trước ngày đi trong 24h, -50% chi phí.</li>
+                  <li>Hủy trong ngày đi: không thể hoàn tiền.</li>
+                </ul>
+
+                <h2 class="title-element">Chúng tôi <span class="pink-color">Cam kết</span></h2>
+                <div class="commitment">
+                  <h4 class="commit-title">NhaTrangBooking xin Cam Kết</h4>
+                  <ul class="cam-ket">
+                    <li>
+                      Đi đúng lịch trình đã niêm yết trên website.
+                    </li>
+                    <li>
+                      Đúng Chất lượng:
+                      <p>Bạn sẽ được đảm bảo về chất lượng tour được ghi rõ cụ thể trên website ứng với từng dịch vụ (hdv, bữa ăn, vận chuyển).</p>
+                    </li>
+                    <li>
+                      Hướng dẫn viên:
+                      <p>Am hiểu biển đảo, nhiều kinh nghiệm, vui vẻ, nhiệt tình.</p>
+                    </li>
+                    <li>
+                      Được bảo hiểm đầy đủ:
+                      <p>Khách hàng đã được bảo hiểm 50tr/người/vụ.</p>
+                    </li>
+                    <li>
+                      Hỗ trợ 24/24: 
+                      <p>Trong suốt thời gian tham gia tour của quý khách, đội ngũ hỗ trợ của chúng tôi luôn sẵn sàng giải quyết những vấn đề khách hàng đang gặp phải với nhiều số hotline khác nhau.</p>
+                    </li>
+                    <li>
+                      Được đền bù thoả đáng: 
+                      <p>Nếu lỗi do nhân viên NhaTrangBooking làm cho quý khách có 1 chuyến đi chưa đạt yêu cầu, chúng tôi cam kết đền bù thỏa đáng những thiệt hại vật chất cũng như tinh thần đã gây ra.</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="comments" id="binh_luan">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-8">
+              <h2 class="title-element">Bình luận</h2>
+              <div class="total-rating">
+                <div class="rating">
+                  <p>
+                    <i class="fas fa-star"></i>
+                    4,5
+                    <span>/ 5</span>
+                  </p>
+                </div>
+                <div class="counter">
+                  <p>Có <span>145</span> lượt đánh giá</p>
+                </div>
+              </div>
+              
+              <div class="comment-list">
+                <div class="comment-item">
+                  <p class="author-name">Lý Tú Quyên</p>
+                  <div class="author-rate">
+                    <div class="rating">
+                      <select class="rating-star">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5" selected>5</option>
+                      </select>
+                    </div>
+                    <span class="created-date">17/11/2018 07:34 AM</span>
+                  </div>
+                  <div class="author-content">
+                    <p>Đặt vé phản hồi thông tin nhanh chóng, dễ dàng, lúc đổi vé thủ tục nhanh chóng, gần như ko phải xếp hàng chờ đợi lâu, giá cả tiết kiệm</p>
+                  </div>
+                </div>
+
+                <div class="comment-item">
+                  <p class="author-name">Lý Tú Quyên</p>
+                  <div class="author-rate">
+                    <div class="rating">
+                      <select class="rating-star">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3" selected>3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </div>
+                    <span class="created-date">17/11/2018 07:34 AM</span>
+                  </div>
+                  <div class="author-content">
+                    <p>Đặt vé phản hồi thông tin nhanh chóng, dễ dàng, lúc đổi vé thủ tục nhanh chóng, gần như ko phải xếp hàng chờ đợi lâu, giá cả tiết kiệm</p>
+                  </div>
+                </div>
+
+                <div class="comment-item">
+                  <p class="author-name">Lý Tú Quyên</p>
+                  <div class="author-rate">
+                    <div class="rating">
+                      <select class="rating-star">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </div>
+                    <span class="created-date">17/11/2018 07:34 AM</span>
+                  </div>
+                  <div class="author-content">
+                    <p>Đặt vé phản hồi thông tin nhanh chóng, dễ dàng, lúc đổi vé thủ tục nhanh chóng, gần như ko phải xếp hàng chờ đợi lâu, giá cả tiết kiệm</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="text-center">
+                <a href="#" class="btn btn-radius btn-gray btn-comment-more">Tải thêm bình luận</a>
+              </div>
+            </div>
+          </div>
+            
+        </div>
+      </div>
+
+
+    </div>
+
+
+    
+
+    <div class="related">
+      <div class="container">
+        <div class="related-tour">
+          <h2 class="title">Các Tour khác</h2>
+          <div class="row tour-list">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 rest">
+              <div class="tour-item">
+                <figure class="thumb">
+                  <a href="#" class="lazy-container">
+                    <img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://via.placeholder.com/400x270.jpg" alt="tour 1">
+                  </a>
+                  <span class="sale">hot</span>
+                </figure>
+                <div class="content">
+                  <a href="#" class="tour-name">Tour Bình Lập - Hang Rái</a>
+                  <div class="place">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span class="text">Điểm đến: Bình lập, Hang Rái, Vĩnh Hy, Sao Biển</span>
+                  </div>
+                  <div class="price">
+                    <p class="old-price"><del>425.000đ</del></p>
+                    <p class="new-price">325.000đ <span>/người lớn</span></p>
+                  </div>
+                  <div class="other">
+                    <p class="timer">Khởi hành hằng ngày</p>
+                    <p class="rating">
+                      <i class="fas fa-star"></i>
+                      4.5
+                      <span class="counter">(134 đánh giá)</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 rest">
+              <div class="tour-item">
+                <figure class="thumb">
+                  <a href="#" class="lazy-container">
+                    <img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://via.placeholder.com/400x270.jpg" alt="tour 1">
+                  </a>
+                  <span class="sale">hot</span>
+                </figure>
+                <div class="content">
+                  <a href="#" class="tour-name">Tour Bình Lập - Hang Rái</a>
+                  <div class="place">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span class="text">Điểm đến: Bình lập, Hang Rái, Vĩnh Hy, Sao Biển</span>
+                  </div>
+                  <div class="price">
+                    <p class="old-price"><del>425.000đ</del></p>
+                    <p class="new-price">325.000đ <span>/người lớn</span></p>
+                  </div>
+                  <div class="other">
+                    <p class="timer">Khởi hành hằng ngày</p>
+                    <p class="rating">
+                      <i class="fas fa-star"></i>
+                      4.5
+                      <span class="counter">(134 đánh giá)</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 rest">
+              <div class="tour-item">
+                <figure class="thumb">
+                  <a href="#" class="lazy-container">
+                    <img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://via.placeholder.com/400x270.jpg" alt="tour 1">
+                  </a>
+                  <span class="sale">hot</span>
+                </figure>
+                <div class="content">
+                  <a href="#" class="tour-name">Tour Bình Lập - Hang Rái</a>
+                  <div class="place">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span class="text">Điểm đến: Bình lập, Hang Rái, Vĩnh Hy, Sao Biển</span>
+                  </div>
+                  <div class="price">
+                    <p class="old-price"><del>425.000đ</del></p>
+                    <p class="new-price">325.000đ <span>/người lớn</span></p>
+                  </div>
+                  <div class="other">
+                    <p class="timer">Khởi hành hằng ngày</p>
+                    <p class="rating">
+                      <i class="fas fa-star"></i>
+                      4.5
+                      <span class="counter">(134 đánh giá)</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+
+
+
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+          <div class="logo-footer">
+            <a href="#">
+              <img src="images/theme1/logo-footer.png" alt="NhaTrangBooking">
+            </a>
+          </div>
+
+          <p class="copyright">© 2018 NhaTrangBooking</p>
+
+          <div class="socials">
+            <a href="#" class="social" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social" target="_blank">
+              <i class="fab fa-tumblr"></i>
+            </a>
+            <a href="#" class="social" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <h4 class="title-col">Chính sách</h4>
+          <ul class="quick-links">
+            <li>
+              <a href="#">Điều khoản sử dụng</a>
+            </li>
+            <li>
+              <a href="#">Quyền riêng tư</a>
+            </li>
+            <li>
+              <a href="#">Chính sách Cookie</a>
+            </li>
+            <li>
+              <a href="#">Chính sách và quy định</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-5">
+          <h4 class="title-col">Liên hệ chúng tôi</h4>
+
+          <ul class="contact-info">
+            <li>
+              <i class="fas fa-phone"></i>
+              0981.211.948 - 0961.277.753
+            </li>
+            <li>
+              <i class="fas fa-map-marker"></i>
+              25 Nguyễn Văn Bảy, P.Phước Long, Nha Trang
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i>
+              info@nhatrangbooking.com.vn
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="page-links">
+        <ul>
+          <li>
+            <a href="#">Về chúng tôi</a>
+          </li>
+          <li>
+            <a href="#">Hướng Dẫn Thanh Toán</a>
+          </li>
+          <li>
+            <a href="#">Blog du lịch</a>
+          </li>
+          <li>
+            <a href="#">Blog tin tức</a>
+          </li>
+          <li>
+            <a href="#">Liên hệ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- hotline button on mobile -->
+  <button class="btn hotline-mobile d-block d-lg-none" data-target="#modal_hotline" data-toggle="modal">
+    <i class="fas fa-phone"></i>
+  </button>
+
+  <div class="modal fade" id="modal_hotline" tabindex="-1" role="dialog" aria-labelledby="modal_hotline" aria-hidden="true">
+    <div class="modal-dialog modal-sm modal-dialog-centered">
+      <div class="modal-content">
+        <p>Hãy nhấn vào một trong các Số bên dưới để <strong>Gọi nhanh!</strong></p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- All Page JS -->
+  <script src="contents/js/jquery-3.3.1.min.js"></script>
+  <script src="contents/js/popper.min.js"></script>
+  <script src="contents/js/bootstrap.min.js"></script>
+  <script src="contents/js/lazyload.min.js"></script>
+  <script src="contents/js/all.js"></script>
+  <!-- ####### -->  
+  <script src="contents/js/jquery.barrating.min.js"></script>
+  <script src="contents/js/lightgallery-all.min.js"></script>
+  <script src="contents/js/detail-service-data.js"></script>
+
+
+  <script>
+  </script>
+</body>
+</html>

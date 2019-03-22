@@ -1,0 +1,535 @@
+// responsive for home
+
+@include responsive(xs) {
+  .slides {
+    height: 250px;
+    .owl-carousel,
+    .owl-stage-outer,
+    .owl-stage,
+    .owl-item {
+      height: 100% !important;
+    }
+
+    .owl-dots {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      z-index: 2;
+      margin-top: 0;
+      margin-bottom: 10px;
+
+      .owl-dot {
+        span {
+          background: rgba(black,.5);
+          width: 12px;
+          height: 12px;
+        }
+
+        &.active {
+          span {
+            background: white;
+            border: 4px solid rgba(black,.8);
+          }
+        }
+      }
+    }
+
+    .slide-item {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+
+      img {
+        height: 100%;
+        width: auto;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        @include translateX(-50%);
+        z-index: 0;
+      }
+    }
+
+    .slide-text {
+      width: 100%;
+      padding-left: 15px;
+      padding-right: 15px;
+      .mouse-icon {
+        width: 25px;
+        height: 25px;
+      }
+      .slide-h1 {
+        font-size: 30px;
+      }
+      .slide-p {
+        font-size: 14px;
+      }
+    }
+  }
+
+
+  .top-tour,.tour-service, .top-rest, .new-blog {
+  
+    .title {
+      font-size: 30px;
+    }
+  
+    .des {
+      font-size: 16px;
+    }
+  }
+
+  .top-tour {
+    padding: 55px 0;
+    .owl-dots {
+      margin-top: 20px !important;
+      .owl-dot{ 
+        span {
+          background: rgba(black,.25);
+        }
+
+        &.active {
+          span {
+            background: $mau-hong;
+          }
+        }
+      }
+
+      
+    }
+  }
+
+  .tour-service {
+    .service-list {
+      margin-bottom: 50px;
+    }
+    .service-item {
+      margin-bottom: 20px;
+    }
+  }
+
+  .targets {
+    .target {
+      margin-bottom: 20px;
+      i {
+        font-size: 25px;
+      }
+
+      .content {
+        padding-top: 3px;
+      }
+
+      .target-name {
+        font-size: 17px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .top-rest {
+    padding: 55px 0;
+    .tabs {
+      margin-top: 35px;
+      margin-bottom: 35px;
+      .tab-btn {
+        font-size: 15px;
+        min-width: auto;
+        width: 45%;
+        margin-right: 2px;
+        margin-left: 2px;
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+
+
+    .btn-view-more {
+      margin-top: 20px;
+    }
+  }
+
+
+  .about-us {
+    padding: 80px 0;
+    background-image: url(../../images/theme1/bg-about-xs.jpg);
+
+    &:before,&:after {
+      height: 35px;
+      background-size: 110% 100%;
+    }
+
+    &:before {
+      top: -1px;
+    }
+
+    &:after {
+      bottom: -1px;
+    }
+
+    .title {
+      font-size: 30px;
+    }
+
+    p {
+      padding: 0;
+    }
+
+    .btn {
+      display: block;
+      margin-right: 0;
+      margin-bottom: 14px;
+      width: 100%;
+    }
+  }
+
+  .new-blog {
+    padding: 55px 0;
+  }
+
+}
+
+@include responsive(sm) {
+  .slides {
+    height: 300px;
+    .owl-carousel,
+    .owl-stage-outer,
+    .owl-stage,
+    .owl-item {
+      height: 100% !important;
+    }
+
+    .owl-dots {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      z-index: 2;
+      margin-top: 0;
+      margin-bottom: 10px;
+
+      .owl-dot {
+        span {
+          background: rgba(black,.5);
+          width: 12px;
+          height: 12px;
+        }
+
+        &.active {
+          span {
+            background: white;
+            border: 4px solid rgba(black,.8);
+          }
+        }
+      }
+    }
+
+    .slide-item {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+
+      img {
+        height: 100%;
+        width: auto;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        @include translateX(-50%);
+        z-index: 0;
+      }
+    }
+
+    .slide-text {
+      width: 100%;
+      padding-left: 15px;
+      padding-right: 15px;
+      .mouse-icon {
+        width: 25px;
+        height: 25px;
+      }
+      .slide-h1 {
+        font-size: 30px;
+      }
+      .slide-p {
+        font-size: 14px;
+      }
+    }
+  }
+
+
+  .top-tour,.tour-service, .top-rest, .new-blog {
+  
+    .title {
+      font-size: 30px;
+    }
+  
+    .des {
+      font-size: 16px;
+    }
+  }
+
+  .top-tour {
+    padding: 55px 0;
+    .owl-dots {
+      margin-top: 20px !important;
+      .owl-dot{ 
+        span {
+          background: rgba(black,.25);
+        }
+
+        &.active {
+          span {
+            background: $mau-hong;
+          }
+        }
+      }
+
+      
+    }
+  }
+
+  .tour-service {
+    .service-list {
+      margin-bottom: 50px;
+    }
+    .service-item {
+      margin-bottom: 20px;
+    }
+  }
+
+  .targets {
+    .target {
+      margin-bottom: 20px;
+      i {
+        font-size: 25px;
+      }
+
+      .content {
+        padding-top: 3px;
+      }
+
+      .target-name {
+        font-size: 17px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .top-rest {
+    padding: 55px 0;
+    .tabs {
+      margin-top: 35px;
+      margin-bottom: 35px;
+      .tab-btn {
+        font-size: 15px;
+      }
+    }
+    
+    .btn-view-more {
+      margin-top: 20px;
+    }
+  }
+
+
+  .about-us {
+    padding: 80px 0;
+    background-image: url(../../images/theme1/bg-about-sm.jpg);
+    &:before,&:after {
+      height: 35px;
+    }
+
+    .title {
+      font-size: 30px;
+    }
+
+    p {
+      padding: 0;
+    }
+
+    .btn {
+      display: block;
+      margin-right: 0;
+      margin-bottom: 14px;
+      width: 100%;
+    }
+  }
+
+  .new-blog {
+    padding: 55px 0;
+  }
+
+}
+
+@include responsive(md) {
+  .slides {
+    height: 300px;
+    .owl-carousel,
+    .owl-stage-outer,
+    .owl-stage,
+    .owl-item {
+      height: 100% !important;
+    }
+
+    .owl-dots {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      z-index: 2;
+      margin-top: 0;
+      margin-bottom: 10px;
+
+      .owl-dot {
+        span {
+          background: rgba(black,.5);
+          width: 12px;
+          height: 12px;
+        }
+
+        &.active {
+          span {
+            background: white;
+            border: 4px solid rgba(black,.8);
+          }
+        }
+      }
+    }
+
+    .slide-item {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+
+      img {
+        height: 100%;
+        width: auto;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        @include translateX(-50%);
+        z-index: 0;
+      }
+    }
+
+    .slide-text {
+      width: 100%;
+      padding-left: 15px;
+      padding-right: 15px;
+      .mouse-icon {
+        width: 25px;
+        height: 25px;
+      }
+      .slide-h1 {
+        font-size: 30px;
+      }
+      .slide-p {
+        font-size: 14px;
+      }
+    }
+  }
+
+
+  .top-tour {
+    padding: 55px 0;
+    .owl-dots {
+      margin-top: 20px !important;
+      .owl-dot{ 
+        span {
+          background: rgba(black,.25);
+        }
+
+        &.active {
+          span {
+            background: $mau-hong;
+          }
+        }
+      }
+
+      
+    }
+  }
+
+  .tour-service {
+    .service-list {
+      margin-bottom: 50px;
+    }
+    .service-item {
+      margin-bottom: 20px;
+    }
+  }
+
+  .targets {
+    .target {
+      margin-bottom: 20px;
+      i {
+        font-size: 25px;
+      }
+
+      .content {
+        padding-top: 3px;
+      }
+
+      .target-name {
+        font-size: 17px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .top-rest {
+    padding: 55px 0;
+    .tabs {
+      margin-top: 35px;
+      margin-bottom: 35px;
+      .tab-btn {
+        font-size: 15px;
+        margin-right: 2px;
+        margin-left: 2px;
+      }
+    }
+
+
+    .btn-view-more {
+      margin-top: 20px;
+    }
+  }
+
+
+  .about-us {
+    padding: 80px 0;
+    background-image: url(../../images/theme1/bg-about-sm.jpg);
+    &:before,&:after {
+      height: 35px;
+    }
+
+    .title {
+      font-size: 30px;
+    }
+
+    p {
+      padding: 0;
+    }
+
+    .btn {
+      display: block;
+      margin-right: 0;
+      margin-bottom: 14px;
+      width: 100%;
+    }
+  }
+
+  .new-blog {
+    padding: 55px 0;
+  }
+
+}

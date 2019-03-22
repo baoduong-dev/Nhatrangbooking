@@ -1,0 +1,358 @@
+// responsive category: Tours, Hotel - Resort, Tour Service, Ve may bay,...
+
+@include responsive(xs) {
+  .service-list,.rest-list {
+    [class*="col-"] {
+      margin-bottom: 0;
+    }
+  }
+
+  .category-service {
+    .pages {
+      padding-top: 25px;
+    }
+  }
+
+  
+
+  .filters {
+    margin-bottom: 20px;
+    height: 55px;
+    overflow: hidden;
+    padding: 18px;
+
+    &.show {
+      height: 100%;
+
+      .filter-group {
+        display: block;
+      }
+
+      .btn-filters {
+        margin-bottom: 30px;
+        &:after {
+          content: '\f106';
+        }
+      }
+
+    }
+
+    .btn-filters {
+      display: block;
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+      text-align: left;
+      color: inherit;
+      height: auto;
+      line-height: normal;
+
+      i {
+        margin-right: 10px;
+      }
+
+      &:after {
+        font-weight: 900;
+        content: '\f107';
+        float: right;
+        font-size: 18px;
+      }
+
+      &:focus {
+        text-decoration: none;
+      }
+    }
+
+    .filter-group {
+      float: none;
+      display: none;
+      width: 100% !important; 
+      padding: 0;
+      margin-bottom: 25px;
+
+
+      .filter-label {
+        font-size: 14px;
+      }
+    }
+
+    .filter {
+      .filter-checkbox {
+        float: none;
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 8px;
+      }
+    }
+    
+    label {
+      display: block;
+    }
+
+    .select2-container {
+      display: block;
+    }
+  }
+
+  .filter-selected {
+    .total-item {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .filter-item {
+      &:nth-child(2) {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .post-in-tour {
+    .post-list {
+      position: relative;
+    }
+
+    .post-item {
+      float: none !important;
+      width: 100% !important;
+      border-right: none;
+      border-bottom: 2px solid white;
+      height: 100vh;
+      max-height: 85px;
+      transition: none;
+
+      .post-meta {
+        display: none !important;
+      }
+
+      .post-name {
+        font-size: 17px;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+        left: 0;
+        top: 50%;
+        @include translateY(-50%);
+      }
+
+      &.show {
+        max-height: 140px;
+
+        .post-name {
+          margin-bottom: 20px;
+          
+        }
+      }
+    }
+
+    // .post-tab-content {
+    //   position: absolute;
+    //   top: 100%;
+    //   left: 0;
+    //   width: 100%;
+    // }
+  }
+
+  .category-service-content {
+    padding: 50px 0;
+
+    .full-content {
+      .title {
+        font-size: 32px;
+      }
+    }
+  }
+}
+
+
+
+@include responsive(sm) {
+  .service-list {
+    [class*="col-"] {
+      margin-bottom: 0;
+    }
+  }
+
+  .category-service {
+    .pages {
+      padding-top: 25px;
+    }
+  }
+
+  
+
+  .filters {
+    margin-bottom: 20px;
+    height: 55px;
+    overflow: hidden;
+
+    &.show {
+      height: 100%;
+
+      .filter-group {
+        display: block;
+      }
+
+      .btn-filters {
+        margin-bottom: 30px;
+        &:after {
+          content: '\f106';
+        }
+      }
+
+    }
+
+    .btn-filters {
+      display: block;
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+      text-align: left;
+      color: inherit;
+      height: auto;
+      line-height: normal;
+
+      i {
+        margin-right: 10px;
+      }
+
+      &:after {
+        font-weight: 900;
+        content: '\f107';
+        float: right;
+        font-size: 18px;
+      }
+
+      &:focus {
+        text-decoration: none;
+      }
+    }
+
+    .filter-group {
+      float: none;
+      display: none;
+      width: 100% !important; 
+      padding: 0;
+      margin-bottom: 25px;
+
+
+      .filter-label {
+        font-size: 14px;
+      }
+    }
+    
+    label {
+      display: block;
+    }
+
+    .select2-container {
+      display: block;
+    }
+  }
+
+  .filter-selected {
+    .total-item {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .filter-item {
+      &:nth-child(2) {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .post-in-tour {
+    .post-list {
+      position: relative;
+    }
+
+    .post-item {
+      float: none !important;
+      width: 100% !important;
+      border-right: none;
+      border-bottom: 2px solid white;
+      height: 100vh;
+      max-height: 115px;
+      transition: none;
+
+      .post-meta {
+        display: none !important;
+      }
+
+      .post-name {
+        font-size: 17px;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+        left: 0;
+        top: 50%;
+        @include translateY(-50%);
+      }
+
+      &.show {
+        max-height: 160px;
+
+        .post-name {
+          margin-bottom: 20px;
+          
+        }
+      }
+    }
+
+    // .post-tab-content {
+    //   position: absolute;
+    //   top: 100%;
+    //   left: 0;
+    //   width: 100%;
+    // }
+  }
+
+  .category-service-content {
+    padding: 50px 0;
+
+    .full-content {
+      .title {
+        font-size: 32px;
+      }
+    }
+  }
+}
+
+@include responsive(md) {
+  .filters {
+    .filter-group {
+      width: 37%;
+    }
+
+    .from,.end {
+      width: 45%;
+    }
+  }
+
+  .post-in-tour {
+    .post-list {
+      position: relative;
+    }
+
+    .post-item {
+      height: 300px;
+    }
+
+    // .post-tab-content {
+    //   position: absolute;
+    //   top: 100%;
+    //   left: 0;
+    //   width: 100%;
+    // }
+  }
+
+  .category-service-content {
+    padding: 50px 0;
+  }
+}

@@ -1,0 +1,29 @@
+$xs: 576;
+$sm: 768;
+$md: 992;
+$lg: 1200;
+
+
+@mixin responsive($screen) {
+  @if ($screen == 'xs') {
+      @media (max-width:#{$xs - 0.2 + 'px'}) {
+          @content;
+      }
+  } @else if ($screen == 'sm') {
+      @media (min-width:#{$xs + 'px'}) and (max-width:#{$sm - 0.2 + 'px'}) {
+          @content;
+      }
+  } @else if ($screen == 'md') {
+      @media (min-width:#{$sm + 'px'}) and (max-width:#{$md - 0.2 + 'px'}) {
+          @content;
+      }
+  } @else if ($screen == 'lg') {
+      @media (min-width:#{$md + 'px'}) and (max-width:#{$lg - 0.2 + 'px'}) {
+          @content;
+      }
+  } @else {
+    @media (min-width:#{$lg + 'px'}) {
+        @content;
+      }
+  } 
+}

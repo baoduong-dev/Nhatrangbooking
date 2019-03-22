@@ -1,0 +1,39 @@
+.breadcrumb {
+  background-color: transparent;
+  padding: 30px 0;
+
+  &-item {
+    &:before {
+      opacity: .4;
+    }
+    a {
+      // display: block;
+      
+      &:hover,&:focus {
+        color: $mau-xanh-ngoc;
+        text-decoration: none;
+      }
+    }
+
+    &.active,a,& {
+      color: $gray-4;
+      font-size: 14px;
+      line-height: normal;
+    }
+
+    &.active {
+      font-weight: 700;
+
+      &:before {
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+@include responsive(xs) {
+  .breadcrumb {
+    margin-bottom: 0;
+    padding: 25px 0;
+  }
+}

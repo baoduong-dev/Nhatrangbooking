@@ -1,0 +1,19 @@
+// $type => 'background, opacity, transform,...'
+// $time => 'thoi gian'
+// ex: transition-ease(opacity, .3s)
+
+@mixin transition-ease($type, $time) {
+	-moz-transition: $type $time ease;
+	-webkit-transition: $type $time ease;
+	transition: $type $time ease;
+}
+@mixin transition-linear($type, $time) {
+	-moz-transition: $type $time linear;
+	-webkit-transition: $type $time linear;
+	transition: $type $time linear;
+}
+@mixin transition-ease-in-out($type, $time) {
+	-moz-transition: $type $time ease-in-out;
+	-webkit-transition: $type $time ease-in-out;
+	transition: $type $time ease-in-out;
+}

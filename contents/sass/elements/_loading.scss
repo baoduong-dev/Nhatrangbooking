@@ -1,0 +1,72 @@
+// loading icon animation
+
+.loading {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.lds-facebook {
+  display: -block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  margin: auto;
+  top: 50%;
+  @include translateY(-50%);
+  // width: 100%;
+  // height: 100%;
+  // top: 50%;
+  // left: 50%;
+  // @include translate(-50%,-50%);
+
+  div {
+    display: inline-block;
+    position: absolute;
+    left: 6px;
+    width: 13px;
+    background: $gray-c;
+    -webkit-animation: lds-facebook .5s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    animation: lds-facebook .5s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  }
+  div:nth-child(1) {
+    left: 6px;
+    animation-delay: -0.24s;
+  }
+  div:nth-child(2) {
+    left: 26px;
+    animation-delay: -0.12s;
+  }
+  div:nth-child(3) {
+    left: 45px;
+    animation-delay: 0;
+  }
+}
+
+@keyframes lds-facebook {
+  0% {
+    top: 6px;
+    height: 51px;
+  }
+  50%, 100% {
+    top: 19px;
+    height: 26px;
+  }
+}
+
+@-webkit-keyframes lds-facebook {
+  0% {
+    top: 6px;
+    height: 51px;
+  }
+  50%, 100% {
+    top: 19px;
+    height: 26px;
+  }
+}
+

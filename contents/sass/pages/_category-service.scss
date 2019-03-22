@@ -1,0 +1,453 @@
+// category: Tours, Hotel - Resort, Tour Service, Ve may bay,...
+
+.main {
+  background-color: $gray-f5;
+  // padding-bottom: 70px;
+}
+
+//category-service
+.category-service {
+  padding-bottom: 30px;
+  .pages {
+    padding-top: 0;
+  }
+}
+
+.service-list,.rest-list,.tour-list {
+  [class*="col-"] {
+    margin-bottom: 40px;
+  }
+}
+
+.filters {
+  background-color: white;
+  border-radius: 10px;
+  padding: 18px 25px;
+  @include box-shadow(0, 5px, 30px, rgba(black,.07));
+  margin-bottom: 25px;
+
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  .filter-title {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: $gray-3;
+    float: left;
+    margin-right: 30px;
+    font-size: 13px;
+    font-weight: 500;
+    i {
+      margin-right: 7px;
+    }
+  }
+
+  .filter-group {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 30%;
+
+    &.filter-price {
+      width: 40%;
+    }
+
+    .text {
+      font-size: 12px;
+      margin-top: 10px;
+      color: $gray-5;
+      display: block;
+
+      
+    }
+  }
+
+  
+
+  .select2 {
+    //max-width: 75%;
+    font-size: 14px;
+  }
+
+  .btn-ok {
+    padding: 0px 15px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 5px;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .filter-label {
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 15px;
+    color: $gray-5;
+  }
+
+  .filter {
+    // float: left;
+    // width: 50%;
+    // padding-right: 22px;
+    // margin-bottom: 6px;
+    
+    .custom-control,label {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .filter-checkbox {
+      margin-bottom: 6px;
+      float: left;
+      width: 50%;
+      padding-right: 15px;
+      label {
+        line-height: 1.9;
+      }
+    }
+
+    i {
+      font-size: 11px;
+      color: $mau-cam;
+      position: relative;
+      top: -1px;
+    }
+
+    label {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 13px;
+      color: $gray-6;
+      // line-height: 24px;
+      line-height: normal;
+    }
+
+    //on checked
+    .custom-control-input:checked ~ .custom-control-label {
+      color: $gray-3;
+      font-weight: 500;
+    }
+  }
+
+  .from, .end {
+    display: inline-block;
+    margin-right: 3px;
+    width: 38%;
+
+    .form-control {
+      height: 28px;
+      font-size: 14px;
+    }
+  }
+}
+
+.filter-selected {
+  margin-bottom: 30px;
+  .total-item {
+    font-size: 14px;
+    color: $gray-5;
+    margin-right: 5px;
+    line-height: 25px;
+    display: inline-block;
+    overflow: hidden;
+  }
+
+  .filter-item {
+    display: inline-block;
+    overflow: hidden;
+    height: 25px;
+    margin-right: 7px;
+    font-size: 12px;
+    border: 1px solid $gray-e0;
+    border-radius: 20px;
+    background-color: white;
+    padding: 0 8px;
+    line-height: 25px;
+    color: $gray-5;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    i {
+      line-height: 25px;
+      height: 25px;
+      font-size: 11px;
+      padding-left: 4px;
+      margin-left: 4px;
+      border-left: 1px solid $gray-e0;
+      opacity: .55;
+    }
+
+    &:hover {
+      cursor: pointer;
+      border-color: $mau-xanh-ngoc - 35;
+      color: $gray-3;
+      text-decoration: none;
+
+      i {
+        color: $mau-xanh-ngoc - 35;
+        border-color: $mau-xanh-ngoc - 35;
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.meta-description {
+  margin-bottom: 50px;
+  .meta-container {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid $gray-e;
+    padding: 30px 35px;
+    position: relative;
+    padding-left: 90px;
+
+    &:after {
+      content: '\f10d';
+      font-family: $font-icon-outline;
+      font-weight: 900;
+      font-size: 48px;
+      opacity: .06;
+      position: absolute;
+      display: block;
+      top: 0px;
+      left: 18px;
+    }
+
+    p {
+      font-size: 16px;
+      font-family: 'Roboto Slab', sans-serif;
+      color: $gray-4;
+      line-height: 1.7;
+    }
+
+    .btn-readmore {
+      color: $mau-hong;
+      font-size: 14px;
+      i {
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+.post-in-tour {
+  margin-bottom: 70px;
+  .post-tab {
+    display: flex;
+
+    &:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+  }
+
+  .post-item {
+    float: left;
+    width: 20%;
+    border-right: 2px solid white;
+    overflow: hidden;
+    position: relative;
+    height: 400px;
+    background-color: $gray-c;
+    @include transition-ease(all, 0.2s);
+
+    &:hover {
+      img {
+        opacity: .45;
+      }
+    }
+    
+  
+    &.show {
+      width: 60%;
+
+      .post-name,.post-meta {
+        white-space: normal;
+        margin-bottom: 10px;
+      }
+
+      .post-meta {
+        display: block;
+        margin-bottom: 20px;
+      }
+
+      img {
+        opacity: .45;
+      }
+    }
+
+    a {
+      // position: absolute;
+      // z-index: 10;
+      display: block;
+      // top: 0;
+      // left: 0;
+      width: 100%;
+      height: 100%;
+      @include gradient(to bottom, transparent, black);
+    }
+
+    .lazy-container {
+      padding-bottom: 58.5%;
+    }
+
+
+    * {
+      color: white;
+    }
+
+    // &:before {
+    //   content: '';
+    //   position: absolute;
+    //   top: 0;
+    //   left: 0;
+    //   width: 100%;
+    //   height: 100%;
+    //   @include gradient(to bottom, transparent, black);
+    //   opacity: .65;
+    //   z-index: 1;
+    // }
+
+    &:last-child {
+      border: none;
+    }
+
+    img {
+      height: 100%;
+      width: auto;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      @include translateX(-50%);
+      z-index: 0;
+      opacity: .65;
+    }
+
+    .post-link {
+      position: absolute;
+      z-index: 2;
+      bottom: 0;
+      padding: 0 20px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .post-name,.post-meta {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 100%;
+    }
+
+    .post-name {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .post-meta {
+      font-size: 14px;
+      margin-bottom: 20px;
+      display: none;
+    }
+  }
+
+  .post-tab-content {
+    margin-top: 20px;
+  }
+
+  .post-item-content {
+    border-radius: 10px;
+    background-color: white;
+    padding: 30px 40px;
+    position: relative;
+    @include box-shadow(0, 5px, 55px, rgba(black,.2));
+
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 100%;
+      border: 10px solid transparent;
+      border-bottom-color: white;
+    }
+
+    &:first-child {
+      &:after {
+        left: 25%;
+        margin-left: 50px;
+      }
+    }
+
+    &:nth-child(2n) {
+      &:after {
+        left: 50%;
+        margin-left: -5px;
+      }
+    }
+
+    &:last-child {
+      &:after {
+        right: 25%;
+        margin-right: 50px;
+      }
+    }
+
+    .btn-readmore {
+      font-size: 14px;
+      height: 36px;
+      padding-left: 18px;
+      padding-right: 18px;
+      line-height: 36px;
+      margin-top: 10px;
+    }
+  }
+}
+
+
+.blog-travel,.post-in-tour {
+  .title {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+}
+
+.category-service-content {
+  background-color: white;
+  padding: 80px 0;
+  
+
+  .full-content {
+    .title {
+      text-align: center;
+      font-size: 38px;
+      text-transform: capitalize;
+      margin-bottom: 50px;
+      &:before,&:after {
+        display: none !important;
+      }
+    }
+  }
+}
+
+// @include responsive(xs) {
+//   .service-list,.rest-list {
+//     [class*="col-"] {
+//       margin-bottom: 0;
+//     }
+//   }
+
+//   .category-service {
+//     .pages {
+//       padding-top: 25px;
+//     }
+//   }
+// }

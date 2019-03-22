@@ -1,0 +1,58 @@
+//comment post
+
+.comment-item {
+  border-bottom: 1px solid $gray-ec;
+  padding: 22px 0;
+
+  p,span {
+    font-family: 'Montserrat', sans-serif !important;
+  }
+  
+  .author-name {
+    font-weight: 700;
+    color: $gray-4;
+    margin-bottom: 6px;
+  }
+
+  .author-rate {
+    margin-bottom: 12px;
+    display: flex;
+  }
+
+  .rating {
+    .br-widget {
+      line-height: normal;
+      height: auto;
+      a {
+        font-size: 10px;
+        
+        &:after {
+          color: $mau-cam-nhat;
+          font-family: $font-icon-outline;
+        }
+
+        &.br-selected:after {
+          font-family: $font-icon-outline;
+          font-weight: 900;
+        }
+      }
+    }
+  }
+
+  .created-date {
+    font-size: 11px;
+    display: inline-block;
+    margin-left: 12px;
+    margin-top: 4px;
+    color: $gray-8;
+  }
+
+  .author-content {
+    p {
+      font-size: 15px;
+      color: $gray-5;
+      margin-bottom: 0;
+    }
+  }
+
+}
