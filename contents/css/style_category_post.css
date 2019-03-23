@@ -514,7 +514,10 @@
 .full-content img {
   max-width: 100%;
   margin-top: 10px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 .full-content * {
   font-family: 'Roboto Slab', sans-serif; }
 .full-content h2, .full-content h3, .full-content h4, .full-content h5, .full-content h6 {
@@ -548,7 +551,10 @@
 .content-element img {
   max-width: 100%;
   margin-top: 10px;
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 .content-element * {
   font-family: 'Roboto Slab', sans-serif; }
 .content-element h3, .content-element h4, .content-element h5, .content-element h6 {
