@@ -423,6 +423,11 @@
     .comment-list {
       padding-left: 0px;
     }
+    .content-element {
+      .title-element {
+        margin-left: 0;
+      }
+    }
   }
 
 }
@@ -691,6 +696,9 @@
       }
     }
 
+    // .content-element {
+    //   padding-left: 12px;
+    // }
     
 
     
@@ -726,6 +734,14 @@
 
       &:last-child {
         margin-bottom: 0;
+      }
+    }
+  }
+
+  .comments {
+    .content-element {
+      .title-element {
+        margin-left: 0;
       }
     }
   }

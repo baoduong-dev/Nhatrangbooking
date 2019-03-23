@@ -254,7 +254,9 @@
       margin-bottom: 0; }
 
   .comments .comment-list {
-    padding-left: 0px; } }
+    padding-left: 0px; }
+  .comments .content-element .title-element {
+    margin-left: 0; } }
 @media (min-width: 576px) and (max-width: 767.8px) {
   .main .container {
     max-width: 540px; }
@@ -441,7 +443,10 @@
   .related [class*="col-"] {
     margin-bottom: 40px; }
     .related [class*="col-"]:last-child {
-      margin-bottom: 0; } }
+      margin-bottom: 0; }
+
+  .comments .content-element .title-element {
+    margin-left: 0; } }
 @media (min-width: 768px) and (max-width: 991.8px) {
   .main .container {
     max-width: 720px; }
