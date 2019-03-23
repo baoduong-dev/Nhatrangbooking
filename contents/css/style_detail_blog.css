@@ -797,51 +797,49 @@ h1 {
         border: 1px solid white;
         width: 33.333%; }
 
-.comments {
-  margin-bottom: 70px; }
-  .comments .title-element {
-    font-size: 24px;
-    margin-bottom: 25px;
+.comments .title-element {
+  font-size: 24px;
+  margin-bottom: 25px;
+  font-family: 'Montserrat', sans-serif; }
+.comments .comment-list {
+  padding-left: 20px; }
+.comments .btn-comment-more {
+  margin-top: 25px; }
+.comments .total-rating {
+  display: block;
+  text-align: center;
+  border: 1px solid rgba(20, 132, 121, 0.2);
+  background-color: rgba(30, 198, 182, 0.05);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px; }
+  .comments .total-rating .rating p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #0b4a44;
+    margin-bottom: 0;
+    line-height: normal; }
+  .comments .total-rating .rating i {
+    color: white;
+    font-size: 14px;
+    line-height: 26px;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: #fb880d;
+    position: relative;
+    top: -10px; }
+  .comments .total-rating .rating span {
+    font-weight: 500;
+    font-size: 18px;
     font-family: 'Montserrat', sans-serif; }
-  .comments .comment-list {
-    padding-left: 20px; }
-  .comments .btn-comment-more {
-    margin-top: 25px; }
-  .comments .total-rating {
-    display: block;
-    text-align: center;
-    border: 1px solid rgba(20, 132, 121, 0.2);
-    background-color: rgba(30, 198, 182, 0.05);
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 20px; }
-    .comments .total-rating .rating p {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 48px;
-      font-weight: 700;
-      color: #0b4a44;
-      margin-bottom: 0;
-      line-height: normal; }
-    .comments .total-rating .rating i {
-      color: white;
-      font-size: 14px;
-      line-height: 26px;
-      width: 26px;
-      height: 26px;
-      border-radius: 50%;
-      background-color: #fb880d;
-      position: relative;
-      top: -10px; }
-    .comments .total-rating .rating span {
-      font-weight: 500;
-      font-size: 18px;
-      font-family: 'Montserrat', sans-serif; }
-    .comments .total-rating .counter p {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 14px;
-      margin-bottom: 0; }
-      .comments .total-rating .counter p span {
-        font-weight: 500; }
+  .comments .total-rating .counter p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-bottom: 0; }
+    .comments .total-rating .counter p span {
+      font-weight: 500; }
 
 .modal-backdrop.show {
   opacity: .85; }

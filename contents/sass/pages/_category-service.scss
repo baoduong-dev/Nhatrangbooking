@@ -257,12 +257,12 @@
     overflow: hidden;
     position: relative;
     height: 400px;
-    background-color: $gray-c;
+    background-color: $gray-1;
     @include transition-ease(all, 0.2s);
 
     &:hover {
       img {
-        opacity: .45;
+        opacity: .7;
       }
     }
     
@@ -281,7 +281,7 @@
       }
 
       img {
-        opacity: .45;
+        opacity: .7;
       }
     }
 
@@ -293,7 +293,14 @@
       // left: 0;
       width: 100%;
       height: 100%;
-      @include gradient(to bottom, transparent, black);
+      &:before {
+        @include gradient(to bottom, transparent, rgba(black,.8));
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+        content: '';
+      }
     }
 
     .lazy-container {
@@ -329,7 +336,7 @@
       left: 50%;
       @include translateX(-50%);
       z-index: 0;
-      opacity: .65;
+      // opacity: .65;
     }
 
     .post-link {
@@ -417,6 +424,12 @@
     font-size: 25px;
     text-transform: uppercase;
     margin-bottom: 40px;
+  }
+}
+
+.blog-travel {
+  .blog-list {
+    padding-bottom: 80px;
   }
 }
 

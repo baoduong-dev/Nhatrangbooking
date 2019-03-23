@@ -17,6 +17,24 @@
   }
 }
 
+.category-post-content {
+  background-color: white;
+  padding-bottom: 80px;
+  
+
+  .full-content {
+    .title {
+      text-align: center;
+      font-size: 38px;
+      text-transform: capitalize;
+      margin-bottom: 50px;
+      &:before,&:after {
+        display: none !important;
+      }
+    }
+  }
+}
+
 @include responsive(xs) {
   .blog-list {
     [class*="col-"] {
@@ -27,6 +45,17 @@
   .category-post {
     .pages {
       padding-top: 25px;
+      margin-bottom: 0;
+    }
+  }
+
+  .category-post-content {
+    padding-bottom: 50px;
+
+    .full-content {
+      .title {
+        font-size: 32px;
+      }
     }
   }
 }
