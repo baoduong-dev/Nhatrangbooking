@@ -16,11 +16,11 @@ $(function() {
     $(parent).addClass('show');
 
     // var post_tab_content_height = $('.post-list').height();
-    var post_tab_content_position = $('.post-tab-content').offset().top;
-    console.log(post_tab_content_position)
-    $('html, body').animate({
-      scrollTop: post_tab_content_position - ($(window).height()/2 - 130)
-    }, 300)
+    // var post_tab_content_position = $('.post-tab-content').offset().top;
+    // //console.log(post_tab_content_position)
+    // $('html, body').animate({
+    //   scrollTop: post_tab_content_position - ($(window).height()/2 - 130)
+    // }, 300)
     // console.log(post_list_height);
     // console.log(post_list_position);
 

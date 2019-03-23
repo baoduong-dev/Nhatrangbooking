@@ -5,6 +5,11 @@
   .category-service .pages {
     padding-top: 25px; }
 
+  .meta-description .meta-container {
+    padding: 40px 20px 20px 50px; }
+    .meta-description .meta-container:after {
+      font-size: 36px; }
+
   .filters {
     margin-bottom: 20px;
     height: 55px;
@@ -67,25 +72,17 @@
     width: 100% !important;
     border-right: none;
     border-bottom: 2px solid white;
-    height: 100vh;
-    max-height: 85px;
+    height: auto;
     transition: none; }
-    .post-in-tour .post-item .post-meta {
-      display: none !important; }
     .post-in-tour .post-item .post-name {
       font-size: 17px; }
     .post-in-tour .post-item img {
       width: 100%;
       height: auto;
-      left: 0;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      -moz-transform: translateY(-50%);
-      transform: translateY(-50%); }
-    .post-in-tour .post-item.show {
-      max-height: 140px; }
-      .post-in-tour .post-item.show .post-name {
-        margin-bottom: 20px; }
+      position: static;
+      transform: none; }
+    .post-in-tour .post-item.show .post-name {
+      margin-bottom: 20px; }
 
   .category-service-content {
     padding: 50px 0; }
@@ -154,25 +151,20 @@
     width: 100% !important;
     border-right: none;
     border-bottom: 2px solid white;
-    height: 100vh;
-    max-height: 115px;
+    height: auto;
     transition: none; }
-    .post-in-tour .post-item .post-meta {
-      display: none !important; }
     .post-in-tour .post-item .post-name {
       font-size: 17px; }
     .post-in-tour .post-item img {
       width: 100%;
       height: auto;
-      left: 0;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      -moz-transform: translateY(-50%);
-      transform: translateY(-50%); }
-    .post-in-tour .post-item.show {
-      max-height: 160px; }
-      .post-in-tour .post-item.show .post-name {
-        margin-bottom: 20px; }
+      position: static;
+      transform: none; }
+    .post-in-tour .post-item.show .post-name {
+      margin-bottom: 20px; }
+
+  .blog-travel .blog-item .content {
+    height: 125px; }
 
   .category-service-content {
     padding: 50px 0; }
