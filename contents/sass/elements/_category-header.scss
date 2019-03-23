@@ -1,6 +1,6 @@
 //category header: background image
 .category-header {
-  background: url(../../images/temps/bg-cate.jpg) no-repeat center;
+  background: url(../../images/theme1/bg-cate.jpg) no-repeat center;
   background-size: cover;
   height: 320px;
   
@@ -24,7 +24,7 @@
 
 @include responsive(xs) {
   .category-header {
-    background: url(../../images/temps/bg-cate-xs.jpg) no-repeat center;
+    background: url(../../images/theme1/bg-cate-xs.jpg) no-repeat center;
     // min-height: 220px;
     height: 220px;
   }
@@ -37,7 +37,7 @@
 
 @include responsive(sm) {
   .category-header {
-    background: url(../../images/temps/bg-cate-sm.jpg) no-repeat center;
+    background: url(../../images/theme1/bg-cate-sm.jpg) no-repeat center;
     height: 220px;
   }
   .category-title {

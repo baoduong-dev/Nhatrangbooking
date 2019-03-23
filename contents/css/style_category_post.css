@@ -470,7 +470,7 @@
       background-color: #1ec6b6; }
 
 .category-header {
-  background: url(../../images/temps/bg-cate.jpg) no-repeat center;
+  background: url(../../images/theme1/bg-cate.jpg) no-repeat center;
   background-size: cover;
   height: 320px;
   position: relative;
@@ -491,7 +491,7 @@
 
 @media (max-width: 575.8px) {
   .category-header {
-    background: url(../../images/temps/bg-cate-xs.jpg) no-repeat center;
+    background: url(../../images/theme1/bg-cate-xs.jpg) no-repeat center;
     height: 220px; }
 
   .category-title {
@@ -500,7 +500,7 @@
     padding-right: 15px; } }
 @media (min-width: 576px) and (max-width: 767.8px) {
   .category-header {
-    background: url(../../images/temps/bg-cate-sm.jpg) no-repeat center;
+    background: url(../../images/theme1/bg-cate-sm.jpg) no-repeat center;
     height: 220px; }
 
   .category-title {
