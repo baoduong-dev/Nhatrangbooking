@@ -470,7 +470,7 @@
       background-color: #1ec6b6; }
 
 .category-header {
-  background: url(../../images/temps/bg-cate.jpg) no-repeat center;
+  background: url(../../images/theme1/bg-cate.jpg) no-repeat center;
   background-size: cover;
   height: 320px;
   position: relative;
@@ -491,7 +491,7 @@
 
 @media (max-width: 575.8px) {
   .category-header {
-    background: url(../../images/temps/bg-cate-xs.jpg) no-repeat center;
+    background: url(../../images/theme1/bg-cate-xs.jpg) no-repeat center;
     height: 220px; }
 
   .category-title {
@@ -500,7 +500,7 @@
     padding-right: 15px; } }
 @media (min-width: 576px) and (max-width: 767.8px) {
   .category-header {
-    background: url(../../images/temps/bg-cate-sm.jpg) no-repeat center;
+    background: url(../../images/theme1/bg-cate-sm.jpg) no-repeat center;
     height: 220px; }
 
   .category-title {
@@ -514,7 +514,10 @@
 .full-content img {
   max-width: 100%;
   margin-top: 10px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 .full-content * {
   font-family: 'Roboto Slab', sans-serif; }
 .full-content h2, .full-content h3, .full-content h4, .full-content h5, .full-content h6 {
@@ -548,7 +551,10 @@
 .content-element img {
   max-width: 100%;
   margin-top: 10px;
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 .content-element * {
   font-family: 'Roboto Slab', sans-serif; }
 .content-element h3, .content-element h4, .content-element h5, .content-element h6 {
