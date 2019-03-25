@@ -92,7 +92,7 @@
           flex: 100%; }
 
   .detail-header h1 {
-    font-size: 25px; }
+    font-size: 28px; }
   .detail-header .hotline {
     visibility: hidden;
     display: none;
@@ -109,6 +109,7 @@
   .detail-header .tab-elements {
     margin-left: -15px;
     margin-right: -15px;
+    margin-top: 25px;
     height: 48px; }
     .detail-header .tab-elements .tab-list {
       white-space: nowrap;
@@ -284,10 +285,11 @@
       bottom: 15px; }
 
   .detail-header h1 {
-    font-size: 25px; }
+    font-size: 28px; }
   .detail-header .tab-elements .tab-list {
     margin-left: -15px;
     margin-right: -15px;
+    margin-top: 25px;
     flex-wrap: nowrap;
     overflow: hidden;
     overflow-x: scroll; }
@@ -531,7 +533,7 @@
           flex: 100%; }
 
   .detail-header h1 {
-    font-size: 25px; }
+    font-size: 28px; }
   .detail-header .hotline {
     visibility: hidden;
     display: none;
