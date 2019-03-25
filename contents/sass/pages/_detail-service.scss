@@ -183,7 +183,7 @@
 
   h1 {
     font-size: 32px;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     //margin-bottom: 35px;
     display: inline;
     margin-right: 10px;
@@ -538,6 +538,8 @@
         background-color: $mau-cam-nhat;
         position: relative;
         top: -10px;
+        font-family: $font-icon-outline !important;
+        font-weight: 900 !important;
       }
 
       span {

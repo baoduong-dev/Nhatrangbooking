@@ -934,7 +934,6 @@ noscript {
       color: #1ec6b6; }
 .detail-header h1 {
   font-size: 32px;
-  text-transform: uppercase;
   display: inline;
   margin-right: 10px; }
 .detail-header .notice {
@@ -1140,7 +1139,9 @@ noscript {
       border-radius: 50%;
       background-color: #fb880d;
       position: relative;
-      top: -10px; }
+      top: -10px;
+      font-family: "Font Awesome 5 Free" !important;
+      font-weight: 900 !important; }
     .comments .total-rating .rating span {
       font-weight: 500;
       font-size: 18px;

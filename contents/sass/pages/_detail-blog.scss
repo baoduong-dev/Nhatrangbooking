@@ -1,12 +1,23 @@
 .detail-thumbnail {
   max-height: 500px;
+  width: 100%;
   height: 100vh;
   overflow: hidden;
-  @include gradient(to bottom, transparent, black);
+  background-color: $gray-2;
   position: relative;
 
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    @include gradient(to bottom, transparent, rgba(black,.85));
+    z-index: 1;
+  }
+
   img {
-    opacity: .5;
     position: absolute;
     z-index: 0;
     top: 50%;
@@ -14,6 +25,7 @@
     width: 100%;
     height: auto;
     @include translateY(-50%);
+    z-index: 0;
   }
 
   .container {
@@ -317,6 +329,8 @@ h1 {
         background-color: $mau-cam-nhat;
         position: relative;
         top: -10px;
+        font-family: $font-icon-outline !important;
+        font-weight: 900 !important;
       }
 
       span {
