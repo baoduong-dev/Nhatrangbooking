@@ -194,7 +194,9 @@ body {
 
   .rest-item {
     height: auto;
-    
+    .content {
+      height: 165px;
+    }
   }
 
   .btn-view-more {

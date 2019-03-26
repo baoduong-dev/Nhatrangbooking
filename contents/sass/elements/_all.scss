@@ -101,8 +101,8 @@ noscript {
 
 }
 
-@include responsive(xs) {
-  .screen-overlay {
-    z-index: 90;
-  }
-}
+// @include responsive(xs) {
+//   .screen-overlay {
+//     z-index: 100;
+//   }
+// }
