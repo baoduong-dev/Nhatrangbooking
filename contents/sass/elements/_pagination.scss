@@ -48,3 +48,15 @@
     }
   }
 }
+
+@include responsive(xs) {
+  .pagination {
+    display: block;
+    text-align: center;
+
+    .page-item {
+      display: inline-block;
+      margin-bottom: 12px;
+    }
+  }
+}
