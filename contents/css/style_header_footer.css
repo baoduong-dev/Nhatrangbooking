@@ -339,7 +339,8 @@ header {
           text-decoration: none;
           color: #1ec6b6; }
       header .nav-menu .menu-item.menu-parent {
-        position: relative; }
+        position: relative;
+        z-index: 100; }
         header .nav-menu .menu-item.menu-parent:hover .sub-menu {
           display: block;
           z-index: 10; }
