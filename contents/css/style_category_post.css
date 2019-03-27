@@ -476,6 +476,13 @@
       color: white;
       background-color: #1ec6b6; }
 
+@media (max-width: 575.8px) {
+  .pagination {
+    display: block;
+    text-align: center; }
+    .pagination .page-item {
+      display: inline-block;
+      margin-bottom: 12px; } }
 .category-header {
   background: url(../../images/theme1/bg-cate.jpg) no-repeat center;
   background-size: cover;
