@@ -1,6 +1,6 @@
 @charset "UTF-8";
 a, button, .btn {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
   font-weight: 500; }
 
 h1 {
