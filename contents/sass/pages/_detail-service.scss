@@ -85,7 +85,7 @@
 
     &.fixed {
       top: 15px;
-      z-index: 900;
+      z-index: 19;
       position: fixed;
     }
 
@@ -500,6 +500,10 @@
 .comments {
   margin-bottom: 70px;
   // margin-top: 50px;
+
+  .content-element .title-element {
+    margin-left: 0;
+  }
 
   .comment-list {
     padding-left: 20px;

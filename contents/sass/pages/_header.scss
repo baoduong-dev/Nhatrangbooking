@@ -97,6 +97,7 @@ header {
 
             &.menu-parent {
                 position: relative;
+                z-index: 100;
 
                 &:hover {
                     .sub-menu {

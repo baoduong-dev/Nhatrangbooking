@@ -90,6 +90,8 @@
         margin-left: 2px;
         padding-left: 0;
         padding-right: 0; }
+    .top-rest .rest-item .content {
+      height: auto; }
     .top-rest .btn-view-more {
       margin-top: 20px; }
 
