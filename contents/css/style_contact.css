@@ -82,6 +82,9 @@ input[type="number"] {
   .contacts .btn-submit {
     min-width: 160px;
     margin-top: 15px; }
+  .contacts .captcha {
+    margin: auto;
+    width: 304px; }
 
 @media (max-width: 575.8px) {
   .contacts {
