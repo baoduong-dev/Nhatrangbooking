@@ -1,5 +1,5 @@
 a, button, .btn {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
   font-weight: 500; }
 
 h1 {
@@ -652,7 +652,7 @@ noscript {
   display: block;
   margin-left: auto;
   margin-right: auto; }
-.full-content * {
+.full-content h2, .full-content h3, .full-content h4, .full-content h5, .full-content h6, .full-content p, .full-content span, .full-content a {
   font-family: 'Roboto Slab', sans-serif; }
 .full-content h2, .full-content h3, .full-content h4, .full-content h5, .full-content h6 {
   margin-bottom: 30px;
@@ -681,7 +681,10 @@ noscript {
 
 .content-element .title-element {
   margin-left: -25px;
-  margin-top: 35px; }
+  margin-top: 35px;
+  font-family: 'Montserrat', sans-serif !important; }
+  .content-element .title-element * {
+    font-family: 'Montserrat', sans-serif !important; }
 .content-element img {
   max-width: 100%;
   margin-top: 10px;
@@ -689,7 +692,7 @@ noscript {
   display: block;
   margin-left: auto;
   margin-right: auto; }
-.content-element * {
+.content-element h2, .content-element h3, .content-element h4, .content-element h5, .content-element h6, .content-element p, .content-element span, .content-element a {
   font-family: 'Roboto Slab', sans-serif; }
 .content-element h3, .content-element h4, .content-element h5, .content-element h6 {
   margin-bottom: 20px;
