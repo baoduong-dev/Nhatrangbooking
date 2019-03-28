@@ -77,8 +77,12 @@
     margin-right: auto;
   }
 
-  h2,h3,h4,h5,h6,p,span,a {
+  h2,h3,h4,h5,h6,p,span,a,li {
     font-family: 'Roboto Slab', sans-serif;
+  }
+
+  h2 {
+    margin-bottom: 20px;
   }
 
   h3,h4,h5,h6 {
