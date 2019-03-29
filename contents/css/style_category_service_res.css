@@ -84,6 +84,9 @@
     .post-in-tour .post-item.show .post-name {
       margin-bottom: 20px; }
 
+  .blog-travel .blog-item .content {
+    height: auto; }
+
   .category-service-content {
     padding: 50px 0; }
     .category-service-content .full-content .title {
@@ -164,7 +167,7 @@
       margin-bottom: 20px; }
 
   .blog-travel .blog-item .content {
-    height: 125px; }
+    height: auto; }
 
   .category-service-content {
     padding: 50px 0; }
@@ -180,6 +183,9 @@
     position: relative; }
   .post-in-tour .post-item {
     height: 300px; }
+
+  .blog-travel .blog-item .content {
+    height: auto; }
 
   .category-service-content {
     padding: 50px 0; } }

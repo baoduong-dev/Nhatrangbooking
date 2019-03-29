@@ -12,6 +12,63 @@
   }
 }
 
+.list-bank {
+  padding: 20px 15px;
+  background-color: $gray-fa;
+  border: 1px solid $gray-e0;
+  @include border-radius(3px);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  
+  .bank {
+      border-top: 1px solid $gray-e0;
+      padding-top: 15px;
+      margin-top: 10px;
+      
+      &:first-child {
+          border-top: none;
+          padding-top: 0;
+          margin-top: 0;
+      }
+      
+      &:after {
+          content: '';
+          clear: both;
+          display: table;
+      }
+  }
+  
+  .bank-logo,
+  .bank-info {
+      float: left;
+
+      img {
+        margin-bottom: 0;
+      }
+  }
+  
+  .bank-info {
+      margin-left: 15px;
+  }
+  
+  p {
+      margin-bottom: 6px;
+  }
+}// end list-bank
+
+
+.contact-company {
+  list-style: none;
+  padding-left: 0;
+  li {
+    margin-bottom: 12px !important;
+    i {
+      margin-right: 20px;
+      color: $mau-xanh-ngoc;
+    }
+  }
+}
+
 h1 {
   font-size: 42px;
   text-transform: capitalize;
@@ -56,6 +113,23 @@ h1 {
   .main {
     .breadcrumb {
       padding-top: 25px;
+    }
+  }
+
+  .list-bank {
+    .bank-logo,
+    .bank-info {
+        float: none;
+    }
+    
+    .bank-logo {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .bank-info {
+        margin-left: 0;
     }
   }
 
