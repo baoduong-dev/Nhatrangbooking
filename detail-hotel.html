@@ -277,7 +277,8 @@
                 
                   
                   <div class="action-group">
-                    <button class="btn btn-radius btn-pink btn-booking disabled" disabled>Ngưng đặt phòng</button>
+                    <button class="btn btn-radius btn-pink btn-booking disabled" disabled id="btn_booking">Ngưng đặt phòng</button>
+                    <input type="hidden" id="price_booking" value="">
                   </div>
                 </div>
 
@@ -749,7 +750,24 @@
 
 
   <script>
-    
-  </script>
+      $(document).ready(function() {
+        var booking = $('#btn_booking'),
+            price_booking = $('#price_booking');
+            // console.log(price_booking.val().length);
+  
+        booking.on('click', function(e) {
+          e.preventDefault();
+          if (price_booking.val() == null || price_booking.val() == 'undefinded' || price_booking.val().length == 0) {
+            $('html').animate({
+              scrollTop: $('#goi_tour').offset().top - 30
+            }, 'fast')
+          } else {
+
+            //CODE REDIRECT HERE
+            alert('Bạn đã chọn giá: ' + price_booking.val());
+          }
+        })
+      })
+    </script>
 </body>
 </html>

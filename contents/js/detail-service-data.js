@@ -21,7 +21,8 @@ $(function() {
       left,
       tab_element = $('.tab-elements'),
       right_side = $('.right-side'),
-      price_o = right_side.find('.new-price');
+      price_o = right_side.find('.new-price'),
+      price_booking = $('#price_booking');
 
 
   tab_element.find('a').on('click', function() {
@@ -210,10 +211,11 @@ $(function() {
     // if selected, change price
     if ($(this).parents(package).hasClass('selected')) {
       var current_price = price_selected.text();
+      price_booking.val(current_price.replace(/đ/g,'').replace('.',''));
       return updatePrice(current_price);
     } else {
       // no selected, return price original
-      
+      price_booking.val('');
       $(this).text(unselect);
       return getBackPrice();
     }

@@ -264,10 +264,13 @@
                     <p class="price-notice"><i class="pink-color fas fa-exclamation-circle"></i> Giá trên không bao gồm chi phí phát sinh ngoài chương trình</p>
                   </div>
                   
-                  <div class="action-group">
-                    <a href="#" class="btn btn-radius btn-pink btn-booking">Đặt tour</a>
-                    <a href="#cam_ket" class="btn btn-outline btn-outline-green btn-cam-ket">Cam kết NhaTrangBooking</a>
-                  </div>
+                  <form action="">
+                    <div class="action-group">
+                      <button class="btn btn-radius btn-pink btn-booking" id="btn_booking">Đặt tour</button>
+                      <a href="#cam_ket" class="btn btn-outline btn-outline-green btn-cam-ket">Cam kết NhaTrangBooking</a>
+                      <input type="hidden" id="price_booking" value="">
+                    </div>
+                  </form>
                 </div>
 
                 <div class="hotline">
@@ -833,9 +836,25 @@
   <script src="contents/js/jquery.barrating.min.js"></script>
   <script src="contents/js/lightgallery-all.min.js"></script>
   <script src="contents/js/detail-service-data.js"></script>
-
-
   <script>
+    $(document).ready(function() {
+      var booking = $('#btn_booking'),
+          price_booking = $('#price_booking');
+          // console.log(price_booking.val().length);
+
+      booking.on('click', function(e) {
+        e.preventDefault();
+        if (price_booking.val() == null || price_booking.val() == 'undefinded' || price_booking.val().length == 0) {
+          $('html').animate({
+            scrollTop: $('#goi_tour').offset().top - 30
+          }, 'fast')
+        } else {
+
+          //CODE REDIRECT HERE
+          alert('Bạn đã chọn giá: ' + price_booking.val());
+        }
+      })
+    })
   </script>
 </body>
 </html>

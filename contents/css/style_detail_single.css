@@ -326,6 +326,49 @@ noscript {
     .main .breadcrumb .breadcrumb-item {
       display: inline-block; }
 
+.list-bank {
+  padding: 20px 15px;
+  background-color: #fafafa;
+  border: 1px solid #e0e0e0;
+  -ms-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+  .list-bank .bank {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 15px;
+    margin-top: 10px; }
+    .list-bank .bank:first-child {
+      border-top: none;
+      padding-top: 0;
+      margin-top: 0; }
+    .list-bank .bank:after {
+      content: '';
+      clear: both;
+      display: table; }
+  .list-bank .bank-logo,
+  .list-bank .bank-info {
+    float: left; }
+    .list-bank .bank-logo img,
+    .list-bank .bank-info img {
+      margin-bottom: 0; }
+  .list-bank .bank-info {
+    margin-left: 15px; }
+  .list-bank p {
+    margin-bottom: 6px; }
+
+.contact-company {
+  list-style: none;
+  padding-left: 0; }
+  .contact-company li {
+    margin-bottom: 12px !important; }
+    .contact-company li i {
+      margin-right: 20px;
+      color: #1ec6b6; }
+
 h1 {
   font-size: 42px;
   text-transform: capitalize;
@@ -356,6 +399,16 @@ h1 {
 @media (max-width: 575.8px) {
   .main .breadcrumb {
     padding-top: 25px; }
+
+  .list-bank .bank-logo,
+  .list-bank .bank-info {
+    float: none; }
+  .list-bank .bank-logo {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px; }
+  .list-bank .bank-info {
+    margin-left: 0; }
 
   .detail-single-container {
     padding: 40px 20px; }
