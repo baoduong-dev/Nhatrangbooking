@@ -431,6 +431,12 @@
   .blog-list {
     padding-bottom: 80px;
   }
+
+  .blog-item {
+    .content {
+      height: 135px;
+    }
+  }
 }
 
 .category-service-content {

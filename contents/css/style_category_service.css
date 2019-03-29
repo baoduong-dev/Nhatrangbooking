@@ -1091,6 +1091,8 @@ noscript {
 
 .blog-travel .blog-list {
   padding-bottom: 80px; }
+.blog-travel .blog-item .content {
+  height: 135px; }
 
 .category-service-content {
   background-color: white;

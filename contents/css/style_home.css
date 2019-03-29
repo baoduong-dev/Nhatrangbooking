@@ -528,15 +528,15 @@ body {
       font-size: 25px;
       font-weight: 500; }
 
-.top-tour .title, .tour-service .title, .top-rest .title, .new-blog .title {
+.top-tour .title, .tour-service .title, .top-rest .title, .new-blog .title, .targets .title {
   font-size: 42px;
   text-transform: uppercase;
   margin-bottom: 10px; }
-.top-tour .des, .tour-service .des, .top-rest .des, .new-blog .des {
+.top-tour .des, .tour-service .des, .top-rest .des, .new-blog .des, .targets .des {
   font-size: 18px;
   color: #888;
   font-family: 'Montserrat', sans-serif; }
-.top-tour .title, .top-tour .des, .tour-service .title, .tour-service .des, .top-rest .title, .top-rest .des, .new-blog .title, .new-blog .des {
+.top-tour .title, .top-tour .des, .tour-service .title, .tour-service .des, .top-rest .title, .top-rest .des, .new-blog .title, .new-blog .des, .targets .title, .targets .des {
   text-align: center; }
 
 .top-tour {
@@ -551,22 +551,24 @@ body {
 .targets {
   background-color: white;
   padding: 50px 0; }
-  .targets .target i {
-    float: left;
-    font-size: 32px;
-    color: #fe4850;
-    margin-right: 20px; }
-  .targets .target .content {
-    overflow: hidden;
-    padding-top: 5px; }
-  .targets .target .target-name {
-    font-size: 20px;
-    margin-bottom: 15px; }
-  .targets .target p {
-    font-family: 'Roboto Slab', sans-serif;
-    font-size: 16px;
-    color: #666;
-    line-height: 1.7; }
+  .targets .target {
+    margin-top: 40px; }
+    .targets .target i {
+      float: left;
+      font-size: 32px;
+      color: #fe4850;
+      margin-right: 20px; }
+    .targets .target .content {
+      overflow: hidden;
+      padding-top: 5px; }
+    .targets .target .target-name {
+      font-size: 20px;
+      margin-bottom: 15px; }
+    .targets .target p {
+      font-family: 'Roboto Slab', sans-serif;
+      font-size: 16px;
+      color: #666;
+      line-height: 1.7; }
 
 .top-rest {
   padding: 70px 0; }
