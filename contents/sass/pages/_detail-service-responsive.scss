@@ -78,6 +78,7 @@
     @include transition-ease(box-shadow,.1s);
     i {
       font-size: 20px;
+      margin-right: 0 !important;
     }
 
     &:hover {
