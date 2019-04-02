@@ -27,13 +27,13 @@
         font-size: 10px;
         
         &:after {
-          color: $mau-cam-nhat;
           font-family: $font-icon-outline;
         }
 
         &.br-selected:after {
           font-family: $font-icon-outline;
           font-weight: 900;
+          color: $mau-cam-nhat;
         }
       }
     }
