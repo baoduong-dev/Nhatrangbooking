@@ -589,11 +589,11 @@ noscript {
     .comment-item .rating .br-widget a {
       font-size: 10px; }
       .comment-item .rating .br-widget a:after {
-        color: #fb880d;
         font-family: "Font Awesome 5 Free"; }
       .comment-item .rating .br-widget a.br-selected:after {
         font-family: "Font Awesome 5 Free";
-        font-weight: 900; }
+        font-weight: 900;
+        color: #fb880d; }
   .comment-item .created-date {
     font-size: 11px;
     display: inline-block;
