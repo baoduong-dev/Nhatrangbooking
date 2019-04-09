@@ -210,8 +210,11 @@ $(function() {
 
     // if selected, change price
     if ($(this).parents(package).hasClass('selected')) {
+
+      var id_selected = $(this).parents('.selected').find('.package-name').data('packid');
       var current_price = price_selected.text();
-      price_booking.val(current_price.replace(/đ/g,'').replace('.',''));
+      price_booking.val(id_selected);
+      //price_booking.val(current_price.replace(/đ/g,'').replace('.',''));
       return updatePrice(current_price);
     } else {
       // no selected, return price original
