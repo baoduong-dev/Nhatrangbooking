@@ -859,7 +859,8 @@ noscript {
   float: left; }
 .detail-header .right-side {
   position: absolute;
-  max-width: 363px; }
+  max-width: 363px;
+  width: 100%; }
   .detail-header .right-side .main-price {
     background-color: white;
     min-height: 0;
