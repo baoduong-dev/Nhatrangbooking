@@ -758,7 +758,7 @@
         booking.on('click', function(e) {
           e.preventDefault();
           if (price_booking.val() == null || price_booking.val() == 'undefinded' || price_booking.val().length == 0) {
-            $('html').animate({
+            $('html,body').animate({
               scrollTop: $('#goi_tour').offset().top - 30
             }, 'fast')
           } else {

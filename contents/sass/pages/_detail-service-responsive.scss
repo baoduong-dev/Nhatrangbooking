@@ -345,11 +345,12 @@
 
   .package-service {
     .package-tour-item {
-      height: 125px;
+      height: auto;
       padding: 15px;
       .package-name {
         font-size: 17px;
         margin-bottom: 15px;
+        max-width: none;;
       }
 
       .package-info {

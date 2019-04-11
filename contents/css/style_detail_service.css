@@ -1065,7 +1065,7 @@ noscript {
   .package-service .package-tour-item {
     position: relative;
     overflow: hidden;
-    height: 90px; }
+    height: auto; }
     .package-service .package-tour-item.selected {
       border-color: rgba(254, 72, 80, 0.65); }
       .package-service .package-tour-item.selected:after {
@@ -1096,7 +1096,8 @@ noscript {
     .package-service .package-tour-item .package-name {
       font-size: 19px;
       text-transform: capitalize;
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      max-width: 62%; }
     .package-service .package-tour-item .package-price {
       position: absolute;
       right: 22px;
@@ -1110,10 +1111,8 @@ noscript {
     .package-service .package-tour-item .btn-select:focus {
       background-color: white;
       color: #fe4850; }
-  .package-service .btn-viewmore {
-    margin-bottom: 15px; }
-    .package-service .btn-viewmore:after {
-      content: '\f107'; }
+  .package-service .btn-viewmore:after {
+    content: '\f107'; }
   .package-service p {
     margin-bottom: 15px; }
   .package-service ul li {
