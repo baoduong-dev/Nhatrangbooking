@@ -404,7 +404,8 @@
   .package-tour-item {
     position: relative;
     overflow: hidden;
-    height: 90px;
+    // height: 90px;
+    height: auto;
 
     &.selected {
       border-color: rgba($mau-hong,.65);
@@ -455,6 +456,7 @@
       font-size: 19px;
       text-transform: capitalize;
       margin-bottom: 10px;
+      max-width: 62%;
     }
 
     .package-price {
@@ -480,7 +482,7 @@
   }
 
   .btn-viewmore {
-    margin-bottom: 15px;
+    // margin-bottom: 15px;
     &:after {
       content: '\f107';
     }
